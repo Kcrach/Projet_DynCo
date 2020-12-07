@@ -1,0 +1,32 @@
+{
+	"@context": {
+		"@base" : "https://api.github.com/",
+		"s" : "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"ex": "http://example.com/ns#",
+		"created_at" : {
+			"@id" : "s:startDate",
+			"@type" : "xsd:dateTimeStamp"
+		},
+		"id": "s:indentifier",
+		"title": "s:name",
+		"body" : "s:description",
+		"author_association": "ex:author_association",
+		"url": {
+			"@id" : "s:url",
+			"@type" : "xsd:anyURI"
+		},
+		"comments_url" : {
+			"@id" : "ex:comment",
+			"@type" : "xsd:anyURI"
+		},
+		"user" :  {
+			"@id" : "s:creator",
+			"@type" : "ex:user"
+		},
+		"login" : "s:accountId",
+		"labels" : "ex:label",
+		"name" : "s:name",
+		"description" : "s:description"
+	}
+}
