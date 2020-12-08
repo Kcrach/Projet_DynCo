@@ -23,9 +23,3 @@ nquads = jsonld.normalize(
     
 with codecs.open('nquads.nq', 'w', 'utf-8') as f:
    f.write(nquads)
-
-with codecs.open('trace_model.shacl.ttl', 'r', 'utf-8') as f:
-    model = f.read()
-
-with codecs.open('trace_model.shacl.ttl', 'w', 'utf-8') as f:
-    f.write(model)
