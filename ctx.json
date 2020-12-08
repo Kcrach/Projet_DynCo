@@ -1,6 +1,5 @@
 {
 	"@context": {
-		"@base" : "https://api.github.com/",
 		"s" : "http://schema.org/",
 		"xsd" : "http://www.w3.org/2001/XMLSchema#",
 		"ex" : "http://example.com/ns#",
@@ -25,7 +24,10 @@
 			"@type" : "ex:user"
 		},
 		"login" : "s:accountId",
-		"labels" : "ex:label",
+		"labels_url" :{
+			"@id" : "ex:label",
+			"@type" : "xsd:anyURI"
+		},
 		"name" : "s:name",
 		"description" : "s:description",
 		"issue_url" : {
@@ -39,6 +41,9 @@
 		"repository_url" : {
 			"@reverse" : "ex:issue",
 			"@type" : "@id"
-		}
+		},
+		"state": "@type",
+		"open": "ex:OpenIssue",
+		"close": "ex:ClosedIssue"
 	}
 }

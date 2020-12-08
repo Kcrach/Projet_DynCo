@@ -28,7 +28,12 @@
         "@value": 753882518
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/97/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -36,6 +41,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Use sophia to connect to a SparQL db (in my case AnzoGraph)"
@@ -97,7 +105,12 @@
         "@value": 700611804
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/96/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -105,6 +118,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "add docs"
@@ -166,7 +182,12 @@
         "@value": 699325549
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/95/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -174,6 +195,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Any plans to use core stable instead of nightly? "
@@ -235,7 +259,12 @@
         "@value": 691027913
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/94/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -243,6 +272,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Use '&dyn TTerm' to access entries in a 'HashSet'"
@@ -304,7 +336,12 @@
         "@value": 688539592
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/93/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -312,6 +349,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Removes not useful print in test code"
@@ -373,7 +413,12 @@
         "@value": 688385661
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/92/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -381,6 +426,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add tests to sparql.rs"
@@ -442,7 +490,12 @@
         "@value": 687086765
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/91/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -450,6 +503,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Alternative API for SPARQL support"
@@ -511,7 +567,12 @@
         "@value": 685351288
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/90/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -519,6 +580,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Generic API for SPARQL support"
@@ -580,7 +644,12 @@
         "@value": 682760373
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/89/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -588,6 +657,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[WIP] Rework `TermFactory`"
@@ -649,7 +721,12 @@
         "@value": 681641926
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/88/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -657,6 +734,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "JSON-LD "
@@ -718,7 +798,12 @@
         "@value": 679779512
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/87/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -726,6 +811,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Should more namespaces be added to sophia_api::ns?"
@@ -787,7 +875,12 @@
         "@value": 679733153
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/86/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -795,6 +888,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Improve doc coverage for `sophia_jsonld`"
@@ -856,7 +952,12 @@
         "@value": 679726033
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/85/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -864,6 +965,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Fix unresolved doc links in jsonld/src/serializer.rs"
@@ -925,7 +1029,12 @@
         "@value": 678641466
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/84/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -933,6 +1042,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Improve doc coverage (#44)"
@@ -994,7 +1106,12 @@
         "@value": 675504030
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/83/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1002,6 +1119,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Fix dead links and typos"
@@ -1063,7 +1183,12 @@
         "@value": 675492173
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/82/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1071,6 +1196,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "More factories"
@@ -1132,7 +1260,12 @@
         "@value": 674016885
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/81/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1140,6 +1273,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Change license?"
@@ -1201,7 +1337,12 @@
         "@value": 665672574
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/80/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1209,6 +1350,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Roadmap?"
@@ -1270,7 +1414,12 @@
         "@value": 661363188
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/79/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1278,6 +1427,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Is my use case a good fit for sophia?"
@@ -1339,7 +1491,12 @@
         "@value": 658908766
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/78/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1347,6 +1504,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Promote sophia in the Rust community"
@@ -1408,7 +1568,12 @@
         "@value": 636847750
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/77/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1416,6 +1581,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "XML Parser fails on large file"
@@ -1477,7 +1645,12 @@
         "@value": 634901605
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/76/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1485,6 +1658,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Collection parsing fails with XML"
@@ -1546,7 +1722,12 @@
         "@value": 631437041
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/75/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1554,6 +1735,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[merged] RawValue as an own type"
@@ -1617,50 +1801,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "New feature or request"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778158
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "enhancement"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/enhancement"
-          }
-        ]
-      },
-      {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/74/labels{/name}"
       }
     ],
     "@reverse": {
@@ -1670,6 +1812,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Validating split IRI without allocating a new String"
@@ -1731,7 +1876,12 @@
         "@value": 609041765
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/73/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1739,6 +1889,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[merged] Check Isomorphism"
@@ -1800,7 +1953,12 @@
         "@value": 607563506
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/72/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1808,6 +1966,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Provide a generic implementation of the RDF test suite "
@@ -1869,7 +2030,12 @@
         "@value": 604774330
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/71/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1877,6 +2043,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Change getting started example"
@@ -1938,7 +2107,12 @@
         "@value": 603963387
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/70/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -1946,6 +2120,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[PoC] My term trait "
@@ -2007,7 +2184,12 @@
         "@value": 601750087
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/69/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2015,6 +2197,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[WIP] Experimenting with a Term trait (as suggested in #55)"
@@ -2076,7 +2261,12 @@
         "@value": 601002061
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/68/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2084,6 +2274,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "How to handle read-only Terms"
@@ -2145,7 +2338,12 @@
         "@value": 600991927
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/67/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2153,6 +2351,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[Discussion] Keep IRI as ns+suffix?"
@@ -2214,7 +2415,12 @@
         "@value": 598050026
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/66/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2222,6 +2428,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Optimize 'Resolve<Literal>'"
@@ -2283,7 +2492,12 @@
         "@value": 597745286
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/65/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2291,6 +2505,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "simplify the Resolve trait implementation"
@@ -2354,27 +2571,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "New feature or request"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778158
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "enhancement"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/enhancement"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/64/labels{/name}"
       }
     ],
     "@reverse": {
@@ -2384,6 +2582,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Make in-memory indexed graphs more generic"
@@ -2445,7 +2646,12 @@
         "@value": 595851826
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/63/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2453,6 +2659,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Improve Namespace's API"
@@ -2514,7 +2723,12 @@
         "@value": 595169823
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/62/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2522,6 +2736,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Remove 'Namespace'"
@@ -2583,7 +2800,12 @@
         "@value": 590112337
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/61/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2591,6 +2813,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[merged] Introduce `map()` and helpers to `Term` and similars"
@@ -2652,7 +2877,12 @@
         "@value": 590096136
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/60/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2660,6 +2890,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Handling intermediate Strings"
@@ -2721,7 +2954,12 @@
         "@value": 590087879
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/59/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2729,6 +2967,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[merged] Export graph tests"
@@ -2790,7 +3031,12 @@
         "@value": 590077651
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/58/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2798,6 +3044,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Export graph and dataset implementation when export_test feature is on"
@@ -2859,7 +3108,12 @@
         "@value": 590077142
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/57/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2867,6 +3121,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Remove resiter dependency in the tests of dataset / graphs"
@@ -2928,7 +3185,12 @@
         "@value": 588396683
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/56/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -2936,6 +3198,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Fix 'sophia_term' dependency"
@@ -2997,7 +3262,12 @@
         "@value": 586754653
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/55/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3005,6 +3275,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Make 'Term' a trait"
@@ -3066,7 +3339,12 @@
         "@value": 584922978
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/54/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3074,6 +3352,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Fully document the term crate"
@@ -3135,7 +3416,12 @@
         "@value": 582805772
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/53/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3143,6 +3429,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Introduce Literal as an own type"
@@ -3204,7 +3493,12 @@
         "@value": 577945318
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/52/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3212,6 +3506,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Adapters for Triple- and QuadSource"
@@ -3275,73 +3572,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "New feature or request"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778158
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "enhancement"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/enhancement"
-          }
-        ]
-      },
-      {
-        "http://schema.org/description": [
-          {
-            "@value": "Good for newcomers"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778160
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "good first issue"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/good%20first%20issue"
-          }
-        ]
-      },
-      {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/51/labels{/name}"
       }
     ],
     "@reverse": {
@@ -3351,6 +3583,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Have IriData implement PartialOrd"
@@ -3412,7 +3647,12 @@
         "@value": 574016016
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/50/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3420,6 +3660,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Change `Term::batch_join` into something more usable"
@@ -3481,7 +3724,12 @@
         "@value": 573572644
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/49/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3489,6 +3737,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "IRI as own public type"
@@ -3550,7 +3801,12 @@
         "@value": 571906409
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/48/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3558,6 +3814,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Make BlankNode a public, own type"
@@ -3619,7 +3878,12 @@
         "@value": 571198583
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/47/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3627,6 +3891,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "[merged] Variable as own type"
@@ -3688,7 +3955,12 @@
         "@value": 571124539
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/46/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3696,6 +3968,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Minor changes to serializers II"
@@ -3757,7 +4032,12 @@
         "@value": 570485888
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/45/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3765,6 +4045,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "How to get more information from parsers?"
@@ -3828,50 +4111,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Good for newcomers"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778160
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "good first issue"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/good%20first%20issue"
-          }
-        ]
-      },
-      {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/44/labels{/name}"
       }
     ],
     "@reverse": {
@@ -3881,6 +4122,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Ensure doc coverage using #![deny(missing_docs)]"
@@ -3942,7 +4186,12 @@
         "@value": 570361210
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/43/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -3950,6 +4199,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Minor changes to serializers"
@@ -4011,7 +4263,12 @@
         "@value": 569842048
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/42/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4019,6 +4276,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Typo in rdf ns"
@@ -4080,7 +4340,12 @@
         "@value": 569839911
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/41/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4088,6 +4353,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "New namespace \"owl:\""
@@ -4149,7 +4417,12 @@
         "@value": 568882092
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/40/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4157,6 +4430,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "New namespace"
@@ -4218,7 +4494,12 @@
         "@value": 565220227
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/39/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4226,6 +4507,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Correct paths in namespace macro"
@@ -4287,7 +4571,12 @@
         "@value": 557404598
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/38/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4295,6 +4584,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Do we still need `TripleSink` and `QuadSink`?"
@@ -4356,7 +4648,12 @@
         "@value": 554163555
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/37/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4364,6 +4661,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "New serializer API"
@@ -4425,7 +4725,12 @@
         "@value": 553558245
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/36/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4433,6 +4738,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Remove error chain"
@@ -4494,7 +4802,12 @@
         "@value": 553535009
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/35/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4502,6 +4815,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Literal as type"
@@ -4582,7 +4898,12 @@
         "@value": 550729612
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/34/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4590,6 +4911,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Make sophia ready to support external serializers"
@@ -4651,7 +4975,12 @@
         "@value": 550376463
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/33/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4659,6 +4988,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "making the namespace! macro public"
@@ -4720,7 +5052,12 @@
         "@value": 549020255
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/32/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4728,6 +5065,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Refactor RDF/XML parser error"
@@ -4789,7 +5129,12 @@
         "@value": 547550335
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/31/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4797,6 +5142,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Refactor error handling in mods graph and dataset"
@@ -4858,7 +5206,12 @@
         "@value": 546908267
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/30/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4866,6 +5219,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Introduce TermError"
@@ -4927,7 +5283,12 @@
         "@value": 538458920
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/29/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -4935,6 +5296,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Replace coercible errors"
@@ -4996,7 +5360,12 @@
         "@value": 538247578
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/28/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5004,6 +5373,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Move from `coercible-error` to a dedicated `StreamError`"
@@ -5065,7 +5437,12 @@
         "@value": 537564971
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/27/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5073,6 +5450,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "changed in error handling and iterator semantics"
@@ -5153,7 +5533,12 @@
         "@value": 537102254
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/26/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5161,6 +5546,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Make (at least) 2 separate crates"
@@ -5222,7 +5610,12 @@
         "@value": 535773939
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/25/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5230,6 +5623,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Provide a simpler parser API"
@@ -5310,7 +5706,12 @@
         "@value": 535679829
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/24/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5318,6 +5719,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Get rid of the lifetime parameters on Triple, Graph and Dataset"
@@ -5379,7 +5783,12 @@
         "@value": 535646888
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/23/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5387,6 +5796,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Help make sophia a common RDF API for Rust"
@@ -5450,27 +5862,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/22/labels{/name}"
       }
     ],
     "@reverse": {
@@ -5480,6 +5873,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add persistent implementation of `dataset::MutableDataset`"
@@ -5543,27 +5939,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/21/labels{/name}"
       }
     ],
     "@reverse": {
@@ -5573,6 +5950,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add HDT backend"
@@ -5636,27 +6016,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/20/labels{/name}"
       }
     ],
     "@reverse": {
@@ -5666,6 +6027,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add HDT serializer"
@@ -5729,27 +6093,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Extra attention is needed"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778159
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "help wanted"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/help%20wanted"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/19/labels{/name}"
       }
     ],
     "@reverse": {
@@ -5759,6 +6104,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add SPARQL support"
@@ -5820,7 +6168,12 @@
         "@value": 535559419
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/18/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5828,6 +6181,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add 'help wanted' issues"
@@ -5889,7 +6245,12 @@
         "@value": 532019593
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/17/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -5897,6 +6258,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add Turtle Support"
@@ -5960,27 +6324,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "New feature or request"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778158
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "enhancement"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/enhancement"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/16/labels{/name}"
       }
     ],
     "@reverse": {
@@ -5990,6 +6335,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add JSON-LD Support"
@@ -6051,7 +6399,12 @@
         "@value": 531549519
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/15/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6059,6 +6412,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add a getting started example"
@@ -6120,7 +6476,12 @@
         "@value": 531175736
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/14/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6128,6 +6489,9 @@
         }
       ]
     },
+    "@type": [
+      "http://example.com/ns#OpenIssue"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Provide some \"Getting Started\" documentation"
@@ -6189,7 +6553,12 @@
         "@value": 477603242
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/13/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6197,6 +6566,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Fix XML parser and bump URL dependency "
@@ -6258,7 +6630,12 @@
         "@value": 477519440
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/12/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6266,6 +6643,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "`percent_encoding` becomes private in `url`>=2.0.0"
@@ -6348,27 +6728,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Something isn't working"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778156
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "bug"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/bug"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/11/labels{/name}"
       }
     ],
     "@reverse": {
@@ -6378,6 +6739,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Non-deterministic test failure"
@@ -6458,7 +6822,12 @@
         "@value": 448362493
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/10/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6466,6 +6835,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Percent-escaped IRI are considered invalid"
@@ -6527,7 +6899,12 @@
         "@value": 446901670
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/9/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6535,6 +6912,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Work-in-progress RDF/XML parser"
@@ -6596,7 +6976,12 @@
         "@value": 446842467
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/8/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6604,6 +6989,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Move from `error-chain` to `thiserror` for error management"
@@ -6665,7 +7053,12 @@
         "@value": 446360996
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/7/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6673,6 +7066,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Make language tags use case-insensitive comparison and hashing"
@@ -6734,7 +7130,12 @@
         "@value": 435085445
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/6/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6742,6 +7143,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Introduce trait `TermData`"
@@ -6803,7 +7207,12 @@
         "@value": 433652747
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/5/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6811,6 +7220,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "How to use the Graph.iter_* interface?"
@@ -6872,7 +7284,12 @@
         "@value": 423664485
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/4/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6880,6 +7297,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "Add travis"
@@ -6941,7 +7361,12 @@
         "@value": 423249247
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/3/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -6949,6 +7374,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "W3C tests don't pass"
@@ -7010,7 +7438,12 @@
         "@value": 423247480
       }
     ],
-    "http://example.com/ns#label": [],
+    "http://example.com/ns#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/2/labels{/name}"
+      }
+    ],
     "@reverse": {
       "http://example.com/ns#issue": [
         {
@@ -7018,6 +7451,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "remove main.rs and Cargo.lock as sophia is a library"
@@ -7100,27 +7536,8 @@
     ],
     "http://example.com/ns#label": [
       {
-        "http://schema.org/description": [
-          {
-            "@value": "Something isn't working"
-          }
-        ],
-        "http://schema.org/indentifier": [
-          {
-            "@value": 1115778156
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "bug"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-            "@value": "https://api.github.com/repos/pchampin/sophia_rs/labels/bug"
-          }
-        ]
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://api.github.com/repos/pchampin/sophia_rs/issues/1/labels{/name}"
       }
     ],
     "@reverse": {
@@ -7130,6 +7547,9 @@
         }
       ]
     },
+    "@type": [
+      "closed"
+    ],
     "http://schema.org/name": [
       {
         "@value": "BNode scope when loading triples/quads into graph/dataset"
