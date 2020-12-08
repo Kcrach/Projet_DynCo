@@ -1,5 +1,6 @@
 [
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -28,6 +29,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Use sophia to connect to a SparQL db (in my case AnzoGraph)"
@@ -61,6 +69,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -89,6 +98,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "add docs"
@@ -122,6 +138,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -150,6 +167,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Any plans to use core stable instead of nightly? "
@@ -183,6 +207,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -211,6 +236,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Use '&dyn TTerm' to access entries in a 'HashSet'"
@@ -244,6 +276,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -272,6 +305,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Removes not useful print in test code"
@@ -305,6 +345,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -333,6 +374,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add tests to sparql.rs"
@@ -366,6 +414,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -394,6 +443,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Alternative API for SPARQL support"
@@ -427,6 +483,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -455,6 +512,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Generic API for SPARQL support"
@@ -488,6 +552,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -516,6 +581,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[WIP] Rework `TermFactory`"
@@ -549,6 +621,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -577,6 +650,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "JSON-LD "
@@ -610,6 +690,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -638,6 +719,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Should more namespaces be added to sophia_api::ns?"
@@ -671,6 +759,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -699,6 +788,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Improve doc coverage for `sophia_jsonld`"
@@ -732,6 +828,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -760,6 +857,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Fix unresolved doc links in jsonld/src/serializer.rs"
@@ -793,6 +897,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -821,6 +926,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Improve doc coverage (#44)"
@@ -854,6 +966,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -882,6 +995,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Fix dead links and typos"
@@ -915,6 +1035,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -943,6 +1064,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "More factories"
@@ -976,6 +1104,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -1004,6 +1133,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Change license?"
@@ -1037,6 +1173,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -1065,6 +1202,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Roadmap?"
@@ -1098,6 +1242,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -1126,6 +1271,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Is my use case a good fit for sophia?"
@@ -1159,6 +1311,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1187,6 +1340,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Promote sophia in the Rust community"
@@ -1220,6 +1380,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -1248,6 +1409,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "XML Parser fails on large file"
@@ -1281,6 +1449,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -1309,6 +1478,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Collection parsing fails with XML"
@@ -1342,6 +1518,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1370,6 +1547,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[merged] RawValue as an own type"
@@ -1403,6 +1587,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -1478,6 +1663,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Validating split IRI without allocating a new String"
@@ -1511,6 +1703,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1539,6 +1732,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[merged] Check Isomorphism"
@@ -1572,6 +1772,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1600,6 +1801,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Provide a generic implementation of the RDF test suite "
@@ -1633,6 +1841,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1661,6 +1870,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Change getting started example"
@@ -1694,6 +1910,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1722,6 +1939,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[PoC] My term trait "
@@ -1755,6 +1979,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -1783,6 +2008,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[WIP] Experimenting with a Term trait (as suggested in #55)"
@@ -1816,6 +2048,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1844,6 +2077,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "How to handle read-only Terms"
@@ -1877,6 +2117,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1905,6 +2146,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[Discussion] Keep IRI as ns+suffix?"
@@ -1938,6 +2186,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -1966,6 +2215,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Optimize 'Resolve<Literal>'"
@@ -1999,6 +2255,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -2027,6 +2284,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "simplify the Resolve trait implementation"
@@ -2060,6 +2324,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -2112,6 +2377,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Make in-memory indexed graphs more generic"
@@ -2145,6 +2417,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2173,6 +2446,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Improve Namespace's API"
@@ -2206,6 +2486,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2234,6 +2515,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Remove 'Namespace'"
@@ -2267,6 +2555,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2295,6 +2584,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[merged] Introduce `map()` and helpers to `Term` and similars"
@@ -2328,6 +2624,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2356,6 +2653,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Handling intermediate Strings"
@@ -2389,6 +2693,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2417,6 +2722,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[merged] Export graph tests"
@@ -2450,6 +2762,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2478,6 +2791,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Export graph and dataset implementation when export_test feature is on"
@@ -2511,6 +2831,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2539,6 +2860,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Remove resiter dependency in the tests of dataset / graphs"
@@ -2572,6 +2900,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2600,6 +2929,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Fix 'sophia_term' dependency"
@@ -2633,6 +2969,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2661,6 +2998,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Make 'Term' a trait"
@@ -2694,6 +3038,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2722,6 +3067,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Fully document the term crate"
@@ -2755,6 +3107,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2783,6 +3136,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Introduce Literal as an own type"
@@ -2816,6 +3176,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -2844,6 +3205,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Adapters for Triple- and QuadSource"
@@ -2877,6 +3245,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -2975,6 +3344,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Have IriData implement PartialOrd"
@@ -3008,6 +3384,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -3036,6 +3413,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Change `Term::batch_join` into something more usable"
@@ -3069,6 +3453,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3097,6 +3482,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "IRI as own public type"
@@ -3130,6 +3522,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3158,6 +3551,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Make BlankNode a public, own type"
@@ -3191,6 +3591,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3219,6 +3620,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "[merged] Variable as own type"
@@ -3252,6 +3660,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3280,6 +3689,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Minor changes to serializers II"
@@ -3313,6 +3729,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -3341,6 +3758,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "How to get more information from parsers?"
@@ -3374,6 +3798,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3449,6 +3874,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Ensure doc coverage using #![deny(missing_docs)]"
@@ -3482,6 +3914,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3510,6 +3943,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Minor changes to serializers"
@@ -3543,6 +3983,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3571,6 +4012,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Typo in rdf ns"
@@ -3604,6 +4052,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3632,6 +4081,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "New namespace \"owl:\""
@@ -3665,6 +4121,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3693,6 +4150,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "New namespace"
@@ -3726,6 +4190,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3754,6 +4219,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Correct paths in namespace macro"
@@ -3787,6 +4259,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -3815,6 +4288,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Do we still need `TripleSink` and `QuadSink`?"
@@ -3848,6 +4328,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -3876,6 +4357,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "New serializer API"
@@ -3909,6 +4397,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3937,6 +4426,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Remove error chain"
@@ -3970,6 +4466,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -3998,6 +4495,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Literal as type"
@@ -4031,6 +4535,26 @@
     ]
   },
   {
+    "http://schema.org/assignee": [
+      {
+        "http://schema.org/indentifier": [
+          {
+            "@value": 304612
+          }
+        ],
+        "http://schema.org/accountId": [
+          {
+            "@value": "pchampin"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://api.github.com/users/pchampin"
+          }
+        ]
+      }
+    ],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4059,6 +4583,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Make sophia ready to support external serializers"
@@ -4092,6 +4623,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -4120,6 +4652,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "making the namespace! macro public"
@@ -4153,6 +4692,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4181,6 +4721,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Refactor RDF/XML parser error"
@@ -4214,6 +4761,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4242,6 +4790,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Refactor error handling in mods graph and dataset"
@@ -4275,6 +4830,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4303,6 +4859,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Introduce TermError"
@@ -4336,6 +4899,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4364,6 +4928,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Replace coercible errors"
@@ -4397,6 +4968,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4425,6 +4997,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Move from `coercible-error` to a dedicated `StreamError`"
@@ -4458,6 +5037,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4486,6 +5066,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "changed in error handling and iterator semantics"
@@ -4519,6 +5106,26 @@
     ]
   },
   {
+    "http://schema.org/assignee": [
+      {
+        "http://schema.org/indentifier": [
+          {
+            "@value": 304612
+          }
+        ],
+        "http://schema.org/accountId": [
+          {
+            "@value": "pchampin"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://api.github.com/users/pchampin"
+          }
+        ]
+      }
+    ],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4547,6 +5154,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Make (at least) 2 separate crates"
@@ -4580,6 +5194,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -4608,6 +5223,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Provide a simpler parser API"
@@ -4641,6 +5263,26 @@
     ]
   },
   {
+    "http://schema.org/assignee": [
+      {
+        "http://schema.org/indentifier": [
+          {
+            "@value": 304612
+          }
+        ],
+        "http://schema.org/accountId": [
+          {
+            "@value": "pchampin"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://api.github.com/users/pchampin"
+          }
+        ]
+      }
+    ],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4669,6 +5311,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Get rid of the lifetime parameters on Triple, Graph and Dataset"
@@ -4702,6 +5351,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4730,6 +5380,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Help make sophia a common RDF API for Rust"
@@ -4763,6 +5420,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4815,6 +5473,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add persistent implementation of `dataset::MutableDataset`"
@@ -4848,6 +5513,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4900,6 +5566,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add HDT backend"
@@ -4933,6 +5606,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -4985,6 +5659,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add HDT serializer"
@@ -5018,6 +5699,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -5070,6 +5752,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add SPARQL support"
@@ -5103,6 +5792,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5131,6 +5821,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add 'help wanted' issues"
@@ -5164,6 +5861,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -5192,6 +5890,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add Turtle Support"
@@ -5225,6 +5930,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -5277,6 +5983,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add JSON-LD Support"
@@ -5310,6 +6023,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5338,6 +6052,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add a getting started example"
@@ -5371,6 +6092,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "NONE"
@@ -5399,6 +6121,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Provide some \"Getting Started\" documentation"
@@ -5432,6 +6161,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5460,6 +6190,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Fix XML parser and bump URL dependency "
@@ -5493,6 +6230,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -5521,6 +6259,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "`percent_encoding` becomes private in `url`>=2.0.0"
@@ -5554,6 +6299,26 @@
     ]
   },
   {
+    "http://schema.org/assignee": [
+      {
+        "http://schema.org/indentifier": [
+          {
+            "@value": 304612
+          }
+        ],
+        "http://schema.org/accountId": [
+          {
+            "@value": "pchampin"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://api.github.com/users/pchampin"
+          }
+        ]
+      }
+    ],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -5606,6 +6371,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Non-deterministic test failure"
@@ -5639,6 +6411,26 @@
     ]
   },
   {
+    "http://schema.org/assignee": [
+      {
+        "http://schema.org/indentifier": [
+          {
+            "@value": 304612
+          }
+        ],
+        "http://schema.org/accountId": [
+          {
+            "@value": "pchampin"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://api.github.com/users/pchampin"
+          }
+        ]
+      }
+    ],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5667,6 +6459,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Percent-escaped IRI are considered invalid"
@@ -5700,6 +6499,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5728,6 +6528,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Work-in-progress RDF/XML parser"
@@ -5761,6 +6568,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5789,6 +6597,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Move from `error-chain` to `thiserror` for error management"
@@ -5822,6 +6637,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5850,6 +6666,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Make language tags use case-insensitive comparison and hashing"
@@ -5883,6 +6706,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -5911,6 +6735,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Introduce trait `TermData`"
@@ -5944,6 +6775,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -5972,6 +6804,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "How to use the Graph.iter_* interface?"
@@ -6005,6 +6844,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -6033,6 +6873,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "Add travis"
@@ -6066,6 +6913,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -6094,6 +6942,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "W3C tests don't pass"
@@ -6127,6 +6982,7 @@
     ]
   },
   {
+    "http://schema.org/assignee": [],
     "http://example.com/ns#author_association": [
       {
         "@value": "CONTRIBUTOR"
@@ -6155,6 +7011,13 @@
       }
     ],
     "http://example.com/ns#label": [],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "remove main.rs and Cargo.lock as sophia is a library"
@@ -6188,6 +7051,26 @@
     ]
   },
   {
+    "http://schema.org/assignee": [
+      {
+        "http://schema.org/indentifier": [
+          {
+            "@value": 304612
+          }
+        ],
+        "http://schema.org/accountId": [
+          {
+            "@value": "pchampin"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://api.github.com/users/pchampin"
+          }
+        ]
+      }
+    ],
     "http://example.com/ns#author_association": [
       {
         "@value": "OWNER"
@@ -6240,6 +7123,13 @@
         ]
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#issue": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs"
+        }
+      ]
+    },
     "http://schema.org/name": [
       {
         "@value": "BNode scope when loading triples/quads into graph/dataset"
@@ -6294,6 +7184,13 @@
         "@value": 474871772
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/3"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6343,6 +7240,13 @@
         "@value": 474874075
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/3"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6392,6 +7296,13 @@
         "@value": 474879415
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/3"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6441,6 +7352,13 @@
         "@value": 474923037
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/2"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6490,6 +7408,13 @@
         "@value": 474942369
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/3"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6539,6 +7464,13 @@
         "@value": 475504079
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/4"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6588,6 +7520,13 @@
         "@value": 475515007
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/4"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6637,6 +7576,13 @@
         "@value": 484037114
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6686,6 +7632,13 @@
         "@value": 484595292
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6735,6 +7688,13 @@
         "@value": 485911221
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6784,6 +7744,13 @@
         "@value": 486116119
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6833,6 +7800,13 @@
         "@value": 486146530
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6882,6 +7856,13 @@
         "@value": 486170073
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6931,6 +7912,13 @@
         "@value": 491556470
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/5"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6980,6 +7968,13 @@
         "@value": 494421636
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/7"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7029,6 +8024,13 @@
         "@value": 495052507
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7078,6 +8080,13 @@
         "@value": 498992236
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7127,6 +8136,13 @@
         "@value": 499195620
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7176,6 +8192,13 @@
         "@value": 499642176
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7225,6 +8248,13 @@
         "@value": 499688211
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7274,6 +8304,13 @@
         "@value": 499759249
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7323,6 +8360,13 @@
         "@value": 499761032
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7372,6 +8416,13 @@
         "@value": 500110936
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7421,6 +8472,13 @@
         "@value": 501401271
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7470,6 +8528,13 @@
         "@value": 501453212
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7519,6 +8584,13 @@
         "@value": 501584925
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7568,6 +8640,13 @@
         "@value": 501793933
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/9"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7617,6 +8696,13 @@
         "@value": 511621522
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7666,6 +8752,13 @@
         "@value": 512895260
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7715,6 +8808,13 @@
         "@value": 516297180
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7764,6 +8864,13 @@
         "@value": 517411101
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7813,6 +8920,13 @@
         "@value": 518845945
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/12"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7862,6 +8976,13 @@
         "@value": 518952283
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/13"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7911,6 +9032,13 @@
         "@value": 519071259
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/13"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7960,6 +9088,13 @@
         "@value": 561095007
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/15"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8009,6 +9144,13 @@
         "@value": 561105438
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/15"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8058,6 +9200,13 @@
         "@value": 561107031
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/14"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8107,6 +9256,13 @@
         "@value": 561109156
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/15"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8156,6 +9312,13 @@
         "@value": 561173102
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/14"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8205,6 +9368,13 @@
         "@value": 561213470
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8254,6 +9424,13 @@
         "@value": 561215927
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8303,6 +9480,13 @@
         "@value": 561349385
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8352,6 +9536,13 @@
         "@value": 561349856
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8401,6 +9592,13 @@
         "@value": 561350098
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8450,6 +9648,13 @@
         "@value": 563916022
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/18"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8499,6 +9704,13 @@
         "@value": 563932468
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/1"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8548,6 +9760,13 @@
         "@value": 563932743
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/18"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8597,6 +9816,13 @@
         "@value": 563963795
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8646,6 +9872,13 @@
         "@value": 563968613
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8695,6 +9928,13 @@
         "@value": 563971430
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/22"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8744,6 +9984,13 @@
         "@value": 563972666
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8793,6 +10040,13 @@
         "@value": 563977806
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8842,6 +10096,13 @@
         "@value": 563981310
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/22"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8891,6 +10152,13 @@
         "@value": 563985808
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8940,6 +10208,13 @@
         "@value": 563986392
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -8989,6 +10264,13 @@
         "@value": 563998845
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9038,6 +10320,13 @@
         "@value": 564022470
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9087,6 +10376,13 @@
         "@value": 564099498
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9136,6 +10432,13 @@
         "@value": 564713416
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9185,6 +10488,13 @@
         "@value": 565072755
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/22"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9234,6 +10544,13 @@
         "@value": 565080428
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9283,6 +10600,13 @@
         "@value": 565088750
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9332,6 +10656,13 @@
         "@value": 565092486
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/23"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9381,6 +10712,13 @@
         "@value": 565106711
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9430,6 +10768,13 @@
         "@value": 565820582
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/27"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9479,6 +10824,13 @@
         "@value": 565820962
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9528,6 +10880,13 @@
         "@value": 565824918
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9577,6 +10936,13 @@
         "@value": 565848667
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9626,6 +10992,13 @@
         "@value": 565849174
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9675,6 +11048,13 @@
         "@value": 565849254
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/27"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9724,6 +11104,13 @@
         "@value": 565934935
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9773,6 +11160,13 @@
         "@value": 565948270
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/28"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9822,6 +11216,13 @@
         "@value": 565948527
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/28"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9871,6 +11272,13 @@
         "@value": 565951586
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/28"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9920,6 +11328,13 @@
         "@value": 565952033
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/8"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -9969,6 +11384,13 @@
         "@value": 566467745
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/29"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10018,6 +11440,13 @@
         "@value": 566476762
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/29"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10067,6 +11496,13 @@
         "@value": 567153382
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10116,6 +11552,13 @@
         "@value": 567434129
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10165,6 +11608,13 @@
         "@value": 567438066
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10214,6 +11664,13 @@
         "@value": 567478698
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10263,6 +11720,13 @@
         "@value": 567491658
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10312,6 +11776,13 @@
         "@value": 567638239
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10361,6 +11832,13 @@
         "@value": 567812551
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/29"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10410,6 +11888,13 @@
         "@value": 567816184
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/29"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10459,6 +11944,13 @@
         "@value": 567844840
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/29"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10508,6 +12000,13 @@
         "@value": 568001921
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10557,6 +12056,13 @@
         "@value": 568254441
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10606,6 +12112,13 @@
         "@value": 568472512
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/24"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10655,6 +12168,13 @@
         "@value": 572144196
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/30"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10704,6 +12224,13 @@
         "@value": 572462054
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/30"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10753,6 +12280,13 @@
         "@value": 572469432
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/30"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10802,6 +12336,13 @@
         "@value": 572505132
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/30"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10851,6 +12392,13 @@
         "@value": 572639722
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/31"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10900,6 +12448,13 @@
         "@value": 572640721
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/31"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10949,6 +12504,13 @@
         "@value": 572644696
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/31"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -10998,6 +12560,13 @@
         "@value": 572645491
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11047,6 +12616,13 @@
         "@value": 572647537
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11096,6 +12672,13 @@
         "@value": 572659325
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/31"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11145,6 +12728,13 @@
         "@value": 572787809
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11194,6 +12784,13 @@
         "@value": 572799900
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11243,6 +12840,13 @@
         "@value": 572937354
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11292,6 +12896,13 @@
         "@value": 573014369
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11341,6 +12952,13 @@
         "@value": 573585453
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11390,6 +13008,13 @@
         "@value": 573589690
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11439,6 +13064,13 @@
         "@value": 573599990
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11488,6 +13120,13 @@
         "@value": 573600323
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/25"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11537,6 +13176,13 @@
         "@value": 574181064
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11586,6 +13232,13 @@
         "@value": 574213496
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11635,6 +13288,13 @@
         "@value": 574358853
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11684,6 +13344,13 @@
         "@value": 574535663
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11733,6 +13400,13 @@
         "@value": 574756259
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/17"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11782,6 +13456,13 @@
         "@value": 574861363
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/33"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11831,6 +13512,13 @@
         "@value": 574863300
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/33"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11880,6 +13568,13 @@
         "@value": 574867291
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/33"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11929,6 +13624,13 @@
         "@value": 575152963
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/33"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -11978,6 +13680,13 @@
         "@value": 576148916
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/32"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12027,6 +13736,13 @@
         "@value": 577152280
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/32"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12076,6 +13792,13 @@
         "@value": 577324486
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/35"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12125,6 +13848,13 @@
         "@value": 577587495
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/35"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12174,6 +13904,13 @@
         "@value": 577698216
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12223,6 +13960,13 @@
         "@value": 577721198
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/35"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12272,6 +14016,13 @@
         "@value": 578024518
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/35"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12321,6 +14072,13 @@
         "@value": 578423778
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12370,6 +14128,13 @@
         "@value": 578430436
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12419,6 +14184,13 @@
         "@value": 578502421
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12468,6 +14240,13 @@
         "@value": 578624653
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12517,6 +14296,13 @@
         "@value": 578636269
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12566,6 +14352,13 @@
         "@value": 579715374
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12615,6 +14408,13 @@
         "@value": 580125497
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12664,6 +14464,13 @@
         "@value": 580190535
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12713,6 +14520,13 @@
         "@value": 580271552
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12762,6 +14576,13 @@
         "@value": 580854285
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12811,6 +14632,13 @@
         "@value": 581039551
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12860,6 +14688,13 @@
         "@value": 581925988
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/34"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12909,6 +14744,13 @@
         "@value": 581994599
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -12958,6 +14800,13 @@
         "@value": 582278349
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13007,6 +14856,13 @@
         "@value": 582343969
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13056,6 +14912,13 @@
         "@value": 582350594
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/34"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13105,6 +14968,13 @@
         "@value": 582392178
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13154,6 +15024,13 @@
         "@value": 582521856
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13203,6 +15080,13 @@
         "@value": 585050945
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13252,6 +15136,13 @@
         "@value": 585143427
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13301,6 +15192,13 @@
         "@value": 586209846
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/39"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13350,6 +15248,13 @@
         "@value": 590103777
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/34"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13399,6 +15304,13 @@
         "@value": 590103823
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/37"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13448,6 +15360,13 @@
         "@value": 590413013
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/38"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13497,6 +15416,13 @@
         "@value": 590414481
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/41"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13546,6 +15472,13 @@
         "@value": 590724976
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/34"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13595,6 +15528,13 @@
         "@value": 590786474
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/34"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13644,6 +15584,13 @@
         "@value": 590798950
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/44"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13693,6 +15640,13 @@
         "@value": 590811346
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/43"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13742,6 +15696,13 @@
         "@value": 590871214
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/45"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13791,6 +15752,13 @@
         "@value": 591011874
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/1"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13840,6 +15808,13 @@
         "@value": 591281468
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/43"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13889,6 +15864,13 @@
         "@value": 591367914
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/47"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13938,6 +15920,13 @@
         "@value": 591614288
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/47"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -13987,6 +15976,13 @@
         "@value": 593436346
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14036,6 +16032,13 @@
         "@value": 593444113
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/45"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14085,6 +16088,13 @@
         "@value": 593445129
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/45"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14134,6 +16144,13 @@
         "@value": 593446228
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14183,6 +16200,13 @@
         "@value": 593829247
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/45"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14232,6 +16256,13 @@
         "@value": 593897758
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14281,6 +16312,13 @@
         "@value": 593995872
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/45"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14330,6 +16368,13 @@
         "@value": 595080435
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14379,6 +16424,13 @@
         "@value": 595082211
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14428,6 +16480,13 @@
         "@value": 595126001
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14477,6 +16536,13 @@
         "@value": 595647207
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14526,6 +16592,13 @@
         "@value": 595701358
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14575,6 +16648,13 @@
         "@value": 595743441
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14624,6 +16704,13 @@
         "@value": 595751202
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14673,6 +16760,13 @@
         "@value": 596220705
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/51"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14722,6 +16816,13 @@
         "@value": 596221570
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14771,6 +16872,13 @@
         "@value": 596240528
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/51"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14820,6 +16928,13 @@
         "@value": 596543949
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14869,6 +16984,13 @@
         "@value": 596673820
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14918,6 +17040,13 @@
         "@value": 598038987
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/44"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -14967,6 +17096,13 @@
         "@value": 598590313
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/49"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15016,6 +17152,13 @@
         "@value": 598590851
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/52"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15065,6 +17208,13 @@
         "@value": 599254389
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15114,6 +17264,13 @@
         "@value": 599397796
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15163,6 +17320,13 @@
         "@value": 600023497
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15212,6 +17376,13 @@
         "@value": 600563139
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/53"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15261,6 +17432,13 @@
         "@value": 601188663
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/53"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15310,6 +17488,13 @@
         "@value": 601190395
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/53"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15359,6 +17544,13 @@
         "@value": 602095344
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15408,6 +17600,13 @@
         "@value": 602250770
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15457,6 +17656,13 @@
         "@value": 602251830
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15506,6 +17712,13 @@
         "@value": 603690027
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15555,6 +17768,13 @@
         "@value": 604456753
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/56"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15604,6 +17824,13 @@
         "@value": 604491371
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/56"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15653,6 +17880,13 @@
         "@value": 604581594
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/56"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15702,6 +17936,13 @@
         "@value": 604587671
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/56"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15751,6 +17992,13 @@
         "@value": 605917669
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15800,6 +18048,13 @@
         "@value": 605948540
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/61"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15849,6 +18104,13 @@
         "@value": 605962707
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15898,6 +18160,13 @@
         "@value": 606020612
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15947,6 +18216,13 @@
         "@value": 606139516
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/57"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -15996,6 +18272,13 @@
         "@value": 606445928
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/61"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16045,6 +18328,13 @@
         "@value": 606455420
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16094,6 +18384,13 @@
         "@value": 606607168
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/61"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16143,6 +18440,13 @@
         "@value": 607863675
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/61"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16192,6 +18496,13 @@
         "@value": 609587820
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16241,6 +18552,13 @@
         "@value": 610228266
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/62"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16290,6 +18608,13 @@
         "@value": 610250578
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/62"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16339,6 +18664,13 @@
         "@value": 610267939
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16388,6 +18720,13 @@
         "@value": 610269117
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/62"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16437,6 +18776,13 @@
         "@value": 610384544
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/62"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16486,6 +18832,13 @@
         "@value": 610778959
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16535,6 +18888,13 @@
         "@value": 610779419
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/50"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16584,6 +18944,13 @@
         "@value": 610799521
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16633,6 +19000,13 @@
         "@value": 610806512
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/50"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16682,6 +19056,13 @@
         "@value": 611482928
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16731,6 +19112,13 @@
         "@value": 611494160
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16780,6 +19168,13 @@
         "@value": 611580942
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/60"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16829,6 +19224,13 @@
         "@value": 611988817
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/65"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16878,6 +19280,13 @@
         "@value": 612011568
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/65"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16927,6 +19336,13 @@
         "@value": 613296590
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -16976,6 +19392,13 @@
         "@value": 614126235
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17025,6 +19448,13 @@
         "@value": 614157903
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/66"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17074,6 +19504,13 @@
         "@value": 614453763
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17123,6 +19560,13 @@
         "@value": 614496052
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17172,6 +19616,13 @@
         "@value": 614541777
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17221,6 +19672,13 @@
         "@value": 614673773
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17270,6 +19728,13 @@
         "@value": 614679485
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/68"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17319,6 +19784,13 @@
         "@value": 614683534
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17368,6 +19840,13 @@
         "@value": 615079919
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17417,6 +19896,13 @@
         "@value": 615084599
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/69"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17466,6 +19952,13 @@
         "@value": 615086574
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/67"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17515,6 +20008,13 @@
         "@value": 615091073
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/69"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17564,6 +20064,13 @@
         "@value": 615121921
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/67"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17613,6 +20120,13 @@
         "@value": 617808563
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/71"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17662,6 +20176,13 @@
         "@value": 618930144
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/70"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17711,6 +20232,13 @@
         "@value": 618931156
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/70"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17760,6 +20288,13 @@
         "@value": 619214118
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/1"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17809,6 +20344,13 @@
         "@value": 619216106
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17858,6 +20400,13 @@
         "@value": 619216671
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/22"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17907,6 +20456,13 @@
         "@value": 619217756
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/68"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -17956,6 +20512,13 @@
         "@value": 620017119
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/72"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18005,6 +20568,13 @@
         "@value": 621818120
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18054,6 +20624,13 @@
         "@value": 625689725
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18103,6 +20680,13 @@
         "@value": 626508407
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18152,6 +20736,13 @@
         "@value": 627193653
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18201,6 +20792,13 @@
         "@value": 627203404
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18250,6 +20848,13 @@
         "@value": 627427390
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/69"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18299,6 +20904,13 @@
         "@value": 627441455
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18348,6 +20960,13 @@
         "@value": 627775408
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/70"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18397,6 +21016,13 @@
         "@value": 627776002
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/73"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18446,6 +21072,13 @@
         "@value": 633215000
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18495,6 +21128,13 @@
         "@value": 633467170
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18544,6 +21184,13 @@
         "@value": 633614282
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18593,6 +21240,13 @@
         "@value": 640869307
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/76"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18642,6 +21296,13 @@
         "@value": 642527572
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18691,6 +21352,13 @@
         "@value": 642542068
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18740,6 +21408,13 @@
         "@value": 642873104
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18789,6 +21464,13 @@
         "@value": 642889943
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18838,6 +21520,13 @@
         "@value": 643337801
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18887,6 +21576,13 @@
         "@value": 643602674
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18936,6 +21632,13 @@
         "@value": 643662005
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -18985,6 +21688,13 @@
         "@value": 644078747
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19034,6 +21744,13 @@
         "@value": 644410574
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19083,6 +21800,13 @@
         "@value": 645822826
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/75"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19132,6 +21856,13 @@
         "@value": 645839416
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19181,6 +21912,13 @@
         "@value": 646323082
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19230,6 +21968,13 @@
         "@value": 646460549
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/72"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19279,6 +22024,13 @@
         "@value": 659257773
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/75"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19328,6 +22080,13 @@
         "@value": 659545332
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19377,6 +22136,13 @@
         "@value": 659876543
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/55"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19426,6 +22192,13 @@
         "@value": 659969129
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/78"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19475,6 +22248,13 @@
         "@value": 660823034
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/79"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19524,6 +22304,13 @@
         "@value": 660883539
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/79"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19573,6 +22360,13 @@
         "@value": 661267740
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/79"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19622,6 +22416,13 @@
         "@value": 661727505
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/79"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19671,6 +22472,13 @@
         "@value": 669752690
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/81"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19720,6 +22528,13 @@
         "@value": 669799895
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/81"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19769,6 +22584,13 @@
         "@value": 670075950
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/81"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19818,6 +22640,13 @@
         "@value": 670971828
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19867,6 +22696,13 @@
         "@value": 670972435
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19916,6 +22752,13 @@
         "@value": 671945422
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/83"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -19965,6 +22808,13 @@
         "@value": 672008064
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/76"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20014,6 +22864,13 @@
         "@value": 672008203
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/77"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20063,6 +22920,13 @@
         "@value": 673002145
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/80"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20112,6 +22976,13 @@
         "@value": 673365099
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/82"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20161,6 +23032,13 @@
         "@value": 673633609
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/44"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20210,6 +23088,13 @@
         "@value": 674504784
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/84"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20259,6 +23144,13 @@
         "@value": 675604292
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20308,6 +23200,13 @@
         "@value": 675624146
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20357,6 +23256,13 @@
         "@value": 675915964
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/87"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20406,6 +23312,13 @@
         "@value": 675923924
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20455,6 +23368,13 @@
         "@value": 675990339
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/87"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20504,6 +23424,13 @@
         "@value": 675993118
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20553,6 +23480,13 @@
         "@value": 677698790
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/82"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20602,6 +23536,13 @@
         "@value": 678332754
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20651,6 +23592,13 @@
         "@value": 678623139
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/87"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20700,6 +23648,13 @@
         "@value": 678623998
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/19"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20749,6 +23704,13 @@
         "@value": 680838385
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/16"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20798,6 +23760,13 @@
         "@value": 680847900
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/88"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20847,6 +23816,13 @@
         "@value": 681929965
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/85"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20896,6 +23872,13 @@
         "@value": 681949112
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/86"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20945,6 +23928,13 @@
         "@value": 681998103
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -20994,6 +23984,13 @@
         "@value": 682004755
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21043,6 +24040,13 @@
         "@value": 682858354
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21092,6 +24096,13 @@
         "@value": 683296247
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21141,6 +24152,13 @@
         "@value": 683413960
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/93"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21190,6 +24208,13 @@
         "@value": 683465390
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/93"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21239,6 +24264,13 @@
         "@value": 684441427
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/93"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21288,6 +24320,13 @@
         "@value": 685106560
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/64"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21337,6 +24376,13 @@
         "@value": 686299858
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/94"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21386,6 +24432,13 @@
         "@value": 691104063
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/95"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21435,6 +24488,13 @@
         "@value": 691112688
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/95"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21484,6 +24544,13 @@
         "@value": 691118234
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/14"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21533,6 +24600,13 @@
         "@value": 691131628
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/14"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21582,6 +24656,13 @@
         "@value": 691702197
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/96"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21631,6 +24712,13 @@
         "@value": 693422154
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/84"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21680,6 +24768,13 @@
         "@value": 708223609
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/96"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21729,6 +24824,13 @@
         "@value": 708224273
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/96"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21778,6 +24880,13 @@
         "@value": 715311393
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/92"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21827,6 +24936,13 @@
         "@value": 715375970
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/92"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21876,6 +24992,13 @@
         "@value": 715880560
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21925,6 +25048,13 @@
         "@value": 715881266
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/92"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -21974,6 +25104,13 @@
         "@value": 715893299
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -22023,6 +25160,13 @@
         "@value": 715903537
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/91"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -22072,6 +25216,13 @@
         "@value": 715905337
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/92"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -22121,6 +25272,13 @@
         "@value": 716491394
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/90"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -22170,6 +25328,13 @@
         "@value": 717150045
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/92"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -22219,6 +25384,13 @@
         "@value": 737194473
       }
     ],
+    "@reverse": {
+      "http://example.com/ns#comment": [
+        {
+          "@id": "https://api.github.com/repos/pchampin/sophia_rs/issues/97"
+        }
+      ]
+    },
     "http://schema.org/url": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",

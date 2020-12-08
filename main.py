@@ -21,5 +21,5 @@ with open('expanded.json', 'w') as f:
 
 nquads = jsonld.to_rdf(expanded, {'format' : 'application/n-quads'})
 
-with codecs.open('nquads.txt', 'w', 'utf-8') as f:
+with codecs.open('nquads.nq', 'w', 'utf-8') as f:
     f.write(nquads)
