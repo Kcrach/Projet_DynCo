@@ -1,6 +1,7 @@
 from pyld import jsonld
 import codecs
 import json
+from pyshacl import validate
 
 # read file
 with open('dataset.json') as myfile:
@@ -14,12 +15,17 @@ with open('ctx.json') as myfile:
 # see: https://json-ld.org/spec/latest/json-ld/#compacted-document-form
 expanded = jsonld.expand(doc,  {'expandContext': context})
 
-print(json.dumps(expanded, indent=2))
-
 with open('expanded.json', 'w') as f:
     json.dump(expanded,f,indent=2)
 
-nquads = jsonld.to_rdf(expanded, {'format' : 'application/n-quads'})
-
+nquads = jsonld.normalize(
+    expanded, {'algorithm': 'URDNA2015', 'format': 'application/n-quads'})
+    
 with codecs.open('nquads.nq', 'w', 'utf-8') as f:
-    f.write(nquads)
+   f.write(nquads)
+
+with codecs.open('trace_model.shacl.ttl', 'r', 'utf-8') as f:
+    model = f.read()
+
+with codecs.open('trace_model.shacl.ttl', 'w', 'utf-8') as f:
+    f.write(model)

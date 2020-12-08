@@ -88,6 +88,12 @@
         "@value": "The goal of this pull request is to create documentation about the Sophia project.\r\n\r\nThe documentation should contain: \r\n\r\n- [x]  Quick Overview\r\n- [x]  Getting Started Guide\r\n\r\nFor detailed documentation, there should be added more pull requests in the future. \r\n\r\nThe docs folder is powered via [mdbook](https://github.com/rust-lang/mdBook) and will be served via Github pages and automatically build with GitHub actions.s"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-10-14T07:43:33Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -119,7 +125,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -165,6 +171,12 @@
         "@value": "Hi folks,\r\n\r\nthis is a really nice project! \r\n\r\nI just found out, that I need to build 'sophia_iri' with Rust nightly. \r\nDo you have any plans to use Rust stable instead of nightly? \r\n\r\nBest wishes,\r\nhuhn"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-09-11T14:38:59Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -196,7 +208,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -242,6 +254,12 @@
         "@value": "This PR adds implementations to `Term` and `dyn TTerm` so that it is now possible to get values from a `HashSet<Term<TD>>` (or `HashMap`) by using `&dyn TTerm` references, e.g.:\r\n\r\n```rust\r\nfn main() -> Result<(), Box<dyn std::error::Error>> {\r\n    let t: Term<String> = Term::new_iri(\"http://example.com/test\")?;\r\n    let mut map = HashSet::new();\r\n    map.insert(t);\r\n\r\n    let iri = SimpleIri::new(\"http://example.com/\", Some(\"test\"))?;\r\n    assert!(map.get(iri.as_dyn()).is_some());\r\n    Ok(())\r\n}\r\n```\r\n\r\nThis also works on other implementation of `TTerm` as long as they implement `Borrow<dyn TTerm + 'a>`. However, the contract of `Borrow` requires that each type that implements the `Borrow` trait has an equivalent implementation of `Hash` and `Eq` to the one of `dyn TTerm`, i.e. they must use the `term_hash()` and `term_eq()` functions. So this is not desirable for all implementors of `TTerm`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-09-03T07:34:09Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -273,7 +291,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -319,6 +337,12 @@
         "@value": "Avoids to get some textual output even if all tests pass."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-09-01T06:28:33Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -350,7 +374,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -473,6 +497,12 @@
         "@value": "This is an alternative to #90, following @yever's comments.\r\n\r\nI think I prefer this one ;-)\r\n@Tpt what do you think?"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-10-26T11:36:03Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -504,7 +534,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -550,6 +580,12 @@
         "@value": "This addresses #19.\r\n\r\nThis proposal is \u00fcber-minimalistic compared to what I suggested initially, but I realized that *generic* SPARQL support is a huge can of worm (see the comment at the top of the `sparql.rs` file).\r\n\r\nSo decided to go for the least common denominator. The drawback is that anyone requiring (even slightly) advanced SPARQL support will need to rely on implementation specific methods. But I still think that this minimal API has value for interoperability.\r\n\r\nAny comment welcome."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-10-26T11:36:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -581,7 +617,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -781,6 +817,12 @@
         "@value": "I would like to use sophia for building a multilingual dictionary, for which I need `http://www.w3.org/ns/lemon/ontolex#` and some other associated modules.\r\n\r\nI'm wondering whether it would make sense to contribute these namespaces to `sophia_api::ns`, or are you satisfied with the existing ones as \"the most common namespaces\"?"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-08-22T10:20:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -812,7 +854,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -858,6 +900,12 @@
         "@value": "- Add `#![deny(missing_docs)]` in `jsonld/src/lib.rs`\r\n- Add `#![allow(missing_docs)]` in `jsonld/src/test_util.rs`\r\n- Add missing doc comments\r\n\r\nRelated to #44\r\n\r\nIt includes the changes in #85 (fixing unresolved links)."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-08-27T13:28:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -889,7 +937,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -935,6 +983,12 @@
         "@value": "The 3 links in the doc comment of\r\n`sophia_jsonld::serializer::jsonTarget` were emitting `unresolved\r\nlink` warnings.\r\n\r\nThe broken links can be seen in: https://docs.rs/sophia_jsonld/0.6.2/sophia_jsonld/serializer/struct.JsonTarget.html\r\n\r\nThere was a typo (`JsonLdSerialiser` instead of `JsonLdSerializer`)\r\nand the links were specified with the wrong syntax:\r\n`[...](...)` instead of `[...]: ...`\r\n\r\nThis is related to #44 (broken links rather than missing docs)."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-08-27T12:54:00Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -966,7 +1020,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1012,6 +1066,12 @@
         "@value": "I added documentation to most public elements in `sophia/`, using\r\nthe method described in the issue (#44) of adding `#![deny(missing_docs)]`\r\nto `sophia/src/lib.rs`.\r\n\r\n~2 doc comments are missing:~\r\n- ~[sophia_api::make_scoped_triple_streaming_mode!(ScopedRioSourceTriple, RioSourceTriple);](https://github.com/pchampin/sophia_rs/blob/master/sophia/src/parser/rio_common.rs#L69)~\r\n- ~[sophia_api::make_scoped_quad_streaming_mode!(ScopedRioSourceQuad, RioSourceQuad);](https://github.com/pchampin/sophia_rs/blob/master/sophia/src/parser/rio_common.rs#L108)~\r\n\r\n~I don't know how to add comments to the macro-created types.~\r\n\r\nI found out that it's possible to add doc comments to macros (https://stackoverflow.com/a/33999625/4696215) and updated the relevant macros accordingly in a separate commit."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-09-16T13:50:45Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1043,7 +1103,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1089,6 +1149,12 @@
         "@value": "This PR fixes a lot of dead links in the docs as well as some typos.\r\n\r\nFor detecting dead links in documentation I used [cargo-deadlinks](https://github.com/deadlinks/cargo-deadlinks)."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-08-11T13:25:38Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1120,7 +1186,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1166,6 +1232,12 @@
         "@value": "The `TermFactory`-trait is useful in many occasions where someone tries to build dynamically new terms (especially blank nodes).\r\n\r\nHowever, for now only factories for `Rc<str>` and `Arc<str>` where provided. This PR add a `SimpleFactory` when expected `TermData` can be directly converted, e.g. `String` to `Box<str>` and an implementation for closures.\r\n\r\nIn addtion, I did a small simplification of the `TermFactory` trait."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-08-20T14:26:05Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1197,7 +1269,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1243,6 +1315,12 @@
         "@value": "I'm interested in contributing to Sophia, either\r\n- Working on implementing some of the JSON-LD processing algorithms (#16)\r\n- Working on carving out the Oxigraph SPARQL parser maybe into another crate (if @Tpt is ok with that) so it is compatible with Sophia types, and trying to get basic queries working over Sophia graphs (#19)\r\n- Adding persistent backends (for me, FoundationDB is the most interesting and immediately useful) (#22)\r\n\r\nAlthough I totally understand and support the aims of copyleft licenses, I think that Sophia and the rest of the RDF ecosystem in Rust could gain much more adoption more quickly if it adopted a permissive license.\r\n\r\nSee https://github.com/pchampin/sophia_rs/issues/23#issuecomment-565092486.\r\n\r\nAlthough it's not a blocker, it would personally make me more eager to contribute if the entire project used a permissive license (e.g. Apache 2.0 like Oxigraph does)\r\n\r\nAlso as a side note, I recently did this: https://github.com/alexkreidler/rust-iri-benchmarks, which may be silly, but I thought interesting to see how many different groups in the Rust RDF ecosystem were re-implementing the same thing differently.\r\n\r\nThat's why I hope Sophia and Oxigraph can achieve the goals of #23. I think that changing the license is a first step that could really make a difference."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-08-06T17:38:39Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1274,7 +1352,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1397,6 +1475,12 @@
         "@value": "In the scope of the Rust ecosystem, is Sophia a good choice for serializing Hydra into JSON-LD? \r\n\r\nMy end goal is to create a wrapper around an existing Rust web framework (maybe Warp?) that makes it easy to generate Hydra JSON-LD documentation automatically from Rust source code with minimal effort. I know that there are many projects for serializing to JSON, but getting the JSON-LD semantics correct would be extremely helpful. \r\n\r\nFrom the documentation I've looked at so far, I'm not quite sure if this project is a good choice to build on top of or not. Do you recommend looking for a different crate? Are there any hydra crates I've overlooked?"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-07-20T18:46:16Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1428,7 +1512,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1474,6 +1558,12 @@
         "@value": "Today `sophia` is at an incredible state and the foundations for a powerful RDF framework for Rust are mostly done. However, while there is an increasing amount of people opening issues. The downloads of `sophia` on [crates.io](https://crates.io/crates/sophia) are still under a thousand. I assume we could improve the popularity and attract contributors to `sophia` or even getting people to add crates to the `sophia`-ecosystem if we promote `sophia` more in the Rust community.\r\n\r\nFor me a start would be:\r\n1. Announcement post for `sophia` v0.6 at URLO.\r\n1. Suggestion for [Crate of the Week](https://users.rust-lang.org/t/crate-of-the-week/2704/792).\r\n1. Post at [Call for Participation](https://users.rust-lang.org/t/twir-call-for-participation/4821/323).\r\n\r\nThe later two have a chance to be included into [This Week in Rust](https://this-week-in-rust.org/) which is at least for me the mandatory weekly update concerning Rust.\r\n\r\nIf you wish I could write the posts I don't think this could cause any harm, just wanted to ask for permission first."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-07-20T06:34:44Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1505,7 +1595,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1705,6 +1795,12 @@
         "@value": "This PR introduces the type `RawValue` as discussed in #55."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-07-16T08:46:49Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1736,7 +1832,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -1859,6 +1955,12 @@
         "@value": "This PR adds a function to check whether two `Graph`s are isomorphic equivalent regarding blank nodes.\r\n\r\nSupports: #72 \r\n\r\nThis more or less resembles the algorithm used in `oxigraph` by @Tpt. However, I had to adapt it to `sophia`'s API.\r\n\r\n## The algorithm\r\n\r\nTo check if two RDF graphs are equal their triples must be compared. However, blank nodes are local to the scope of their graphs. Accordingly, the labels of blank nodes does not matter when we compare two graphs only that they refer to the same thing.\r\n\r\nThe idea behind the implementation is that for each BN a distinct hash is calculated. if we do this for each BN in the two graphs a mapping from BNs of the first graph to the BNs of the second graph can be derived. If the mapping is applied to the BNs of the first graph the result should be absolute equal to the second graph.\r\n\r\nTo calculate the distinct hashes for a BN we calculate the hash of the hashes of each triple that contains the BN at any position. To eliminate the dependency from BN labels, BNs are excluded from the hashing.\r\n\r\nShould the hashes of BNs collide within a graph the hashes for those BNs are improved. This is done by hashing adjacent triples in the graph, i.e. we traverse further from subjects and objects and include the traversed triples in the hash. Iteratively the hashes are improved until no collisions are left. (In my implementation the traversal is actually limited to 8 steps). \r\n\r\n## ToDo\r\n\r\n- [x] Add more (complex) tests to verify the implementation.\r\n- [x] Implementation for datasets\r\n\r\n## Future work\r\n\r\nThe code should become easier when we introduce a term-trait.\r\n\r\n---\r\n\r\n@pchampin sadly I had to add some utility function are those okay?\r\n\r\n@Tpt could you verify that my version of the algorithm is correct?"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-05-13T06:30:52Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1890,7 +1992,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2013,6 +2115,12 @@
         "@value": "In fact, this PR changes nothing for users but removes some boilerplate code. Therefore, it is okay to close this PR. It is rather a minor recommendation for the future.\r\n\r\nThe change uses the trick from [`rustdoc`'s documentation](https://doc.rust-lang.org/rustdoc/documentation-tests.html#using--in-doc-tests): As of Rust 1.34 we can omit the `fn main() -> Result<...>` when an `Ok::<...>(())` is returned.\r\n\r\n_Note:_ `Box<dyn std::error::Error>` is already semantically equal to `CatchAll`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-22T14:22:38Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2044,7 +2152,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2090,6 +2198,12 @@
         "@value": "This PR implements my proposal from [my comment](https://github.com/pchampin/sophia_rs/pull/69#commitcomment-38553899) in #69.\r\n\r\nThis version adds no further types expect for the traits. The traits are implemented for the respective, existing types and an example function is given with `Graph::poc_triples_with_spo()`.\r\n\r\n---\r\n\r\nThe contents are a _Proof of Concept_ and neither completely thought through nor completely implemented. Rather it is a base for further discussion in #69."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-05-13T06:29:30Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2121,7 +2235,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2167,6 +2281,12 @@
         "@value": "@MattesWhite We can use this PR to discuss about specific implementation details."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-05-12T15:45:27Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2198,7 +2318,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2244,6 +2364,12 @@
         "@value": "During #55 the question arose how should read-only `Term` references be handled.\r\n\r\n_Note:_ This only affects situation where a `Term` is passed in to check and compare the contents of it. Not when the `Term` (reference) is passed in to be copy/clone in some way.\r\n\r\nCurrently, there are two approaches in `sophia`:\r\n\r\n1. Take a reference to a monomorphized `Term`, e.g. `Graph::triples_with_spo<'s, T, U, V>(&'s self,    s: &'s Term<T>, p: &'s Term<U>, o: &'s Term<V>) -> GTripleSource<'s, Self>`.\r\n  This version allows to directly pass references without the need to create an intermediate representation. However, this can increase compile times and code size significantly.\r\n1. Take a `RefTerm`.\r\n  This prevents monomorphization. However, it requires to build an intermediate, 76 Byte big `RefTerm`.\r\n\r\nAn alternative approach would be having a `TermTrait`, so we could pass `&dyn TermTrait` in such situations. This would prevent monomorphization and does not require an intermediate `RefTerm`. However, a definition of such a trait is still to be figured out."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-27T06:32:33Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2275,7 +2401,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2398,6 +2524,12 @@
         "@value": "The current implementation of `impl Resolve<Literal> for IriParsed` is not optimal as it allocates intermediate string(s).\r\n\r\nThis implementation uses the standard `Resolve<Iri>` for the literal's datatype and wraps the text as `MownStr::Ref`. The key for this implementation is to move it into the `literal` module where we can access the private fields of `Literal`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-15T16:57:37Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2429,7 +2561,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2475,6 +2607,12 @@
         "@value": "This commit remove somewhat redundant implementations;\r\nthe rationale is that what they did (resolving TD1 to TD2 directly)\r\ncan usually be achieved by resolving to MownStr, then map'ing to TD2.\r\nThis will usually be just as efficient (possibly more),\r\nbecause types that can recycle the memory allocated by MownStr will\r\nusually do so (e.g. Box or String).\r\n\r\n@MattesWhite what do you think about that. You designed and implemented the `Resolve` trait,\r\nso I would like your opinion on this before merging it."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-15T16:59:30Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2506,7 +2644,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2629,6 +2767,12 @@
         "@value": "Result of the discussion in #62 \r\n\r\n- Add 'get_iri()'\r\n- Conversion between 'Iri' and 'Namespace'\r\n- Impl Resolve<Namespace>"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-07T14:09:55Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2660,7 +2804,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2706,6 +2850,12 @@
         "@value": "`Namespace` had only one functionality and was practically another `Iri`-type.\r\n\r\nThis PR removes the `Namespace` and adds `Iri::with_suffix()` which has the same semantics. \r\n\r\nThe reason for this change is because conversion between `Namespace` and `Iri` was complicated and not necessary. In addition, improvements to `Iri` would have been required to be implemented for `Namespace` as well which no one has done. However, as `Namespace` only had a single function it was easier to move this function to `Iri`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-07T13:24:32Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2737,7 +2887,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2783,6 +2933,12 @@
         "@value": "Allows better control over ownership and transformation of 'TermData'.\r\n\r\nThe idea originated from this recent topic at URLO: https://users.rust-lang.org/t/is-it-possible-to-impl-from-wrapper-t-for-wrapper-u/40029/3\r\n\r\nWith `map()` is is possible to directly map owned `TermData`. At the moment transformation is usually done through reference via `Self<T>: From<&Self<U>>`. This rather implicit conversion can now be replaced by more explicit `self.as_ref().map(...)`. Furthermore, this can become handy for handling intermediate `String`s (#60). Another example is `term.as_ref_str()` instead of `RefTerm::from(&term)`.\r\n\r\n---\r\n\r\n**WIP**\r\n\r\nAt the moment this PR is more a PoC and methods are only implemented for `Iri`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-02T15:07:27Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2814,7 +2970,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2860,6 +3016,12 @@
         "@value": "In some situations intermediate `String`s are allocated and then transformed into `TermData`, e.g. normalization and resolving of IRIs.\r\n\r\n# Issue\r\n\r\nI'm currently working on `metis` for an example for #55. I'd like to use `CowTerm` for my parser. This means that if an absolute IRI is parsed I have `Cow::Borrowed` and I would like it to remain `Cow::Borrowed` after resolving against the base IRI. On the other hand when a relative IRI is parsed the `Cow::Borrowed` should be turned into `Cow::Owned` after resolution. This means that I have to know if a `&str` comes from the original to track lifetimes or if I get a newly allocated `String`.\r\n\r\n# Discussion of Solutions\r\n\r\n1. Change signature of `Resolve<Iri>` (and of normalization) to:\r\n    ```rust\r\n    impl<'a, 'td, TD, TD2> Resolve<Iri<TD>, Iri<TD2>> for IriParsed<'a>\r\n    where\r\n        TD: 'td + TermData,\r\n        TD2: TermData + From<&'td str> + From<String>,\r\n    { ... }\r\n    ```\r\n    This, however, prevents passing in a `TermFactory`. So maybe it would be nice to have another `Resolve`.\r\n1. Add `resolve_with()`:\r\n    ```rust\r\n    trait ResolveWith<S, STD, T = S, TTD = STD> {\r\n        fn resolve_with<'td, B, O>(&self, other: &'td S, borrowed: B, owned: O) -> T \r\n        where\r\n            STD: 'td + TermData,\r\n            B: FnMut(&'td str) -> TTD,\r\n            O: FnMut(String) -> TTD;\r\n    ```\r\n    This adds complexity and is maybe to much for the single use case of `Cow` as this is not that important for other `TermData`. Besides a default implementation:\r\n    ```rust\r\n    /// pseudo Rust\r\n    impl<'td, S, STD, T, TTD> Resolve<S, T> for ResolveWith<S, STD, T, TTD>\r\n    where\r\n        STD: 'td,\r\n        TTD: From<&'td str> + From<String>,\r\n    {\r\n        fn resolve(&self, other: &S) -> T {\r\n            self.resolve_with(other, Into::into, Into::into)\r\n        }\r\n    }\r\n    ```\r\n    Should be possible.\r\n\r\nWhat do you think? Is this case important enough to add such complexity?"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-23T09:53:09Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2891,7 +3053,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -2937,6 +3099,12 @@
         "@value": "This PR enables to export the graph and dataset tests of Sophia.\r\n\r\nThis feature is accessible with the `export_test` feature to reduce the size of the dependency graph"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-30T17:36:10Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2968,7 +3136,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3014,6 +3182,12 @@
         "@value": "The motivation of this commit is to let other implementors of sophia graph or sophia dataset use the already written tests.\r\n\r\nThis PR includes the commit of the  #57 "
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-30T08:15:24Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3045,7 +3219,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3091,6 +3265,12 @@
         "@value": "Currently we can not use the test macro for sophia graphs in other crates that implements this trait.\r\n\r\nThis first PR purpose is to remove the reciter dependency in tests.\r\n\r\n- If the reciter dependency is kept, users have to include resiter in the Cargo.toml file which is not user friendly.\r\n- Tests now panics when a result is an error instead of discarding the error because an error means the whole dataset was not properly retrieved (the test fails earlier)"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-30T17:36:38Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3122,7 +3302,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3168,6 +3348,12 @@
         "@value": "As 'sophia_term' is not yet published, the dependency in `sophia/Cargo.toml` throughs an error if a crate depends on `sophia`'s git. Fixed by adding a relative path.\r\n\r\nIn addition, set version of 'sophia_term' to 0.1.0 as it is a new crate."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-26T17:53:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3199,7 +3385,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3245,6 +3431,12 @@
         "@value": "Proposed first in #35 I suggest to introduce a trait `Term`.\r\n\r\n## Objective\r\n\r\n`sophia`'s aim is to become a central API for RDF in Rust (#23). As such it would be nice if third party terms could smoothly interoperate with `sophia`'s ecosystem, e.g. `rio`'s terms could be stored in `sophia`'s `HashGraph`, N3 terms from `metis` could use the `Serializer` interface or another crate could provide compatible, ASCII-based terms that are based on `&[u8]` (maybe even going towards `no_std`-RDF :blush:).\r\n\r\n## Required changes\r\n\r\nWith the latest effort to turn each kind of term (IRI, literal, blank node and variable) into an own type with an aligned API the step to create a trait is no longer that much work. A problem could be that this could turn advanced traits, such as `Graph`, in a mess of trait bounds. I'd like to commit a PoC-PR to see how it goes.\r\n\r\n## Suggestion\r\n\r\nHere a suggestion how a trait may look like:\r\n\r\n```rust\r\ntrait Term: Clone + Hash + Debug + Display \r\n    + PartialEq + PartialEq<Iri> + PartialEq<Literal> + PartialEq<BlankNode> + Eq\r\nwhere\r\n    Iri: TryFrom<Self>,\r\n    Literal: TryFrom<Self>,\r\n    BlankNode: TryFrom<Self>,\r\n{\r\n    type TermData: TermData;\r\n\r\n    fn value(&self) -> String;\r\n}\r\n```\r\n\r\nThe focus should be to keep the `Term` trait as small as possible while other behaviour is kept separate in other traits, e.g. `Resolve`.\r\n"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-07-17T05:59:09Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3276,7 +3468,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3322,6 +3514,12 @@
         "@value": "Contributes to #44."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-23T17:33:44Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3353,7 +3551,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3399,6 +3597,12 @@
         "@value": "Final contribution to making kinds of RDF terms own types.\r\n\r\nPrevious PRs: #49 , #48 , #47 \r\n\r\nCloses: #34\r\n\r\nInput from: #35 and previous PRs\r\n\r\n---\r\n\r\nThis PR refactors `sophia::term::Term`'s `Literal` variant into an own, public type and aligns its interface to the APIs of the previous PRs for other kinds of terms.\r\n\r\nDue to its scale and decisions to discuss this is marked work-in-progress.\r\n\r\n**ToDo:**\r\n\r\n- [x] Create type `Literal`.\r\n- [x] Refactor `_literal_kind.rs` into `literal.rs`.\r\n- [x] Integrate `Literal` into `Term`.\r\n- [x] Refactor conversion primitive types <-> literal.\r\n- [ ] Final alignment of `Variable`, `BlankNode`, `Iri` and `Literal` to provide a uniform API for terms.\r\n  - [x] Remove `unsafe` from all `*_unchecked()` methods and introduce `debug_assert!()`.\r\n  - [x] Similar implementations of `From`, `TryFrom`, `PartialEq` and other convenience traits.\r\n  - [ ] ...\r\n\r\nAs always, the todo-list is my personal roadmap and is open to discussion.\r\n"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-19T14:38:32Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3430,7 +3634,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3630,6 +3834,12 @@
         "@value": "Currently, there are two ways to resolve (possibly relative) terms agains a base IRI:\r\n* `base.join` for one-shot operations,\r\n* `base.batch_join` for multiple operations.\r\n\r\nThe rationale for this design is that joining requires the structure of the base IRI to be parsed, and we do not store that structure in IRI Terms (to save space -- not all IRIs in a graph are expected to be used as base IRIs). `batch_join` allows to perform the parsing only once, and resolve multiple terms in a row.\r\n\r\nA possibly better design would be to have a dedicated type, storing the parsed structure of an IRI, and providing methods to resove terms (and why not, whold triples, quads, or even graphs and datasets?). `Term::batch_join` would then be replaced by a `Term::to_base` method, returning such an object. This would allow for this kind of pattern:\r\n```\r\nlet base = some_iri_term.to_base();\r\nlet abs_triples = some_triple_source.map_triples(|t| base.join_triple(&t));\r\n```\r\n"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-08T07:47:45Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3661,7 +3871,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3707,6 +3917,12 @@
         "@value": "This PR refactors `IriData` into the first-class kind of RDF term `Iri`.\r\n\r\nAs this affects many areas of `sophia` this PR is marked as work-in-progress and is not ready to be merged, yet.\r\n\r\nThe changes will not only include 1-to-1 translations of existing code but also re-organization of modules, adding and removing of features and alignment with the previous work of refactoring blank nodes (#48) and variables (#47). As I'm not the owner of this crate and due to the reach of this PR, I highly appreciate reviews and discussions.\r\n\r\n**ToDo list**\r\n\r\nThis list is of course open to discussion. I'll try to work through the list from top to bottom.\r\n\r\n- [x] refactor `_iri_data` into a public module, including renaming `IriData` to `Iri`.\r\n- [x] Integrate the `join` mechanism more deeply into `Iri`, as far as possible.\r\n  - [x] write an adapter for iterators, e.g. `graph.triples().resolve_with(&term)...`.\r\n- [x] Integrate new `Iri` into `Term`, including convenient functions.\r\n- [x] ~Replace usage of `Term` where actually only an `Iri` is valid.~ Was not necessary.\r\n- [x] ~Replace `Option<&Term>` with~ Seems not to give any advantages.\r\n  ```rust\r\n  enum GraphId<'a, TD> {\r\n      Named(&'a Iri<TD>),\r\n      Default,\r\n  }\r\n  ```"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-13T08:02:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3738,7 +3954,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3784,6 +4000,12 @@
         "@value": "Continuation of turning kinds of term into own, public types (see #34 )\r\n\r\n- turned mod `_bnode_id` into pub mod `blank_node`\r\n- Refactored `BNodeId` to new-type struct `BlankNode`\r\n- Aligned `BlankNode` interface with newly created `Variable`\r\n- `BlankNode::new()` and `Term::new_bnode()` now fail correctly if not N3 _[1]_\r\n  - Adapted tests accordingly\r\n- Integrated `BlankNode` into `Term`\r\n- Minor corrections in mod `variable`\r\n\r\n_[1]_ This is a significant change but this is more aligned to the way variables are handled.\r\n\r\n---\r\n\r\nI think the next parts IRI and literal will take longer as they are way more complex as variables and blank nodes (in terms of implementation). Probably, I will create a WIP-PR so you can watch the progress and we can discuss certain changes."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-27T13:09:48Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3815,7 +4037,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3861,6 +4083,12 @@
         "@value": "Contribution according to the discussions in #34 and #35.\r\n\r\nAs a first step this moves variables out of `Term` and into an own type `Variable`.\r\n\r\nFollowing features are implemented:\r\n\r\n- (unsafe) constructor\r\n- copy with factory\r\n- write to fmt/io\r\n- convert between `Term` and `Variable` back and forth\r\n- Integration of `Variable` in the methods of `Term`\r\n- own public submodule `sophia::term::variable`\r\n\r\n---\r\n\r\nStep by step each kind of RDF term will get its own public submodule. I started with variables due to their small codebase. \r\nI think it is better to continue this process in small PRs rather then working weeks on an own branch and resolving ocuring conflicts in the end."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-26T20:03:06Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3892,7 +4120,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -3938,6 +4166,12 @@
         "@value": "Reduced version of #43 \r\n\r\n- Remove `NxStringifier` type alias.\r\n   Seems redundant to call `NtStringifier::new_stringifier()` when\r\n   `NtSerializer::new_stringifier()` does the same.\r\n- Rename `NtSerializer` to `NqSerializer` in nq.rs.\r\n- Add documentation to `new_stringifier*()` methods."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-26T08:31:53Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -3969,7 +4203,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4169,6 +4403,12 @@
         "@value": "Response to #34 commit  9a97dae .\r\n\r\n- Remove `&mut` from source  in serialize 'statement' methods.\r\n  Unnesessary as sources are completely consumed (see doc: 'Serialize __all__ triples/quads').\r\n- Remove `NxStringifier` type alias.\r\n   Seems redundant to call `NtStringifier::new_stringifier()` when\r\n   `NtSerializer::new_stringifier()` does the same.\r\n- Rename `NtSerializer` to `NqSerializer` in nq.rs."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-26T07:33:03Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4200,7 +4440,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4246,6 +4486,12 @@
         "@value": "`rdf:Bag` instead of `rdf:Bad`"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-24T16:20:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4277,7 +4523,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4323,6 +4569,12 @@
         "@value": "# New `owl:` namespace\r\n-------------------------------------\r\nThe rasoner needs the `owl:` namespace"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-25T10:07:40Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4354,7 +4606,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4400,6 +4652,12 @@
         "@value": "# The reasoner needs the `owl:` namespace.\r\nand change of  `rdf:Bad` into `rdf:Bag`\r\n---------------------------------------------------\r\nfile changed: \r\n- `ns.rs`\r\n-----------------------------------------------------\r\nT.Bourg - Intern of P.-A. Champin"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-24T12:49:32Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4431,7 +4689,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4477,6 +4735,12 @@
         "@value": "When the `namespace!` macro is used like this (2018 edition):\r\n\r\n```rust\r\nuse sophia::namespace;\r\n\r\nnamespace!(...);\r\n```\r\n\r\ninstead of using\r\n\r\n```rust\r\n#[use_macro]\r\nextern crate sophia;\r\n\r\nnamespace!(...);\r\n```\r\n\r\nThe macro throws an error because the `ns_term!` is not exported.\r\n\r\nThis PR fixes this issue by adding the absolute path to macro-calls inside the macros."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-14T10:54:57Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4508,7 +4772,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4554,6 +4818,12 @@
         "@value": "In #37 @MattesWhite points out that sinks are not very idiomatic.\r\n\r\nI introduced them to be able to consume sources, and I introduced sources because iterators had limitation (see the [`stream` module documentation](https://github.com/pchampin/sophia_rs/blob/master/sophia/src/triple/stream.rs)).\r\n\r\nBut we could reuse the notion of streaming mode, introduced in the Graph and Dataset traits, to make sources consumable in a more idiomatic way, e.g. with a `for_each_triple` method (resp. `for_each_quad`)...\r\n\r\nLet's investigate that...\r\n\r\n```"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-24T16:19:29Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4585,7 +4855,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4631,6 +4901,12 @@
         "@value": "with TripleSerializer and QuadSerializer traits,\r\nand TripleStringifier and QuadStringifier specializations.\r\nThis is meant to replace the \"duck-typing\" style Config objects.\r\n\r\nIn the process, removed some duplicate code btw nt and nq serializers."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-02-23T19:00:06Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4662,7 +4938,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4708,6 +4984,12 @@
         "@value": "Finally, the last remains of `error-chain` are removed from `sophia`.\r\n\r\nThe last uses of `sophia::error::Error` where in `sophia::serializer`. There it only coverd `io::Error`s, so this was set as the new error type.\r\n\r\nThere shouldn't be any conflicts with #35."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-22T17:55:36Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4739,7 +5021,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4785,6 +5067,12 @@
         "@value": "This PR contributes to #34 .\r\n\r\nWith this PR the contents of `Term::Literal` are extracted into a new type `LiteralData`. This should allow third-party authors to easier add specific behavior for RDF-literals, e.g. serialization.\r\n\r\nFurthermore, the calls to `n3()` has been reduced in the modified code (see #34).\r\n\r\nIn addition, the function `Term::new_literal()` is added. A shortcut for creating simple literals, i.e. literals with datatype `xsd:string`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-24T07:38:18Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4816,7 +5104,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4881,6 +5169,12 @@
         "@value": "For now `sophia` only provides serializers for `N-Triples` and `N-Quads`. In order to support further serializers, we must develop an API for them, i.e. traits and some utilities. This contributes to #23.\r\n\r\n_When ever triples and graphs are mentioned those can be replaced by quad and dataset respectively. If not mentioned otherwise._\r\n\r\n## Steps towards an improved serializer API\r\n\r\n- [X] Make the internals of `Term::Literal` an own type like `IriData` or `BNodeId`. This way it is easier to implement specific serializations for literals.\r\n- [x] Remove the `n3()`-method from `Term`. It can be replaced by introducing a trait, e.g.:\r\n\r\n  ```rust\r\n  trait NtSerializableTerm {\r\n      fn nt(&self) -> String;\r\n  }\r\n\r\n  impl NtSerializableTerm for Term {\r\n      fn nt(&self) -> String {\r\n          crate::serializer::nt::stringify_term(self)\r\n      }\r\n  }\r\n  ```\r\n\r\n  Or at least rename the method properly.\r\n- [x] Provide a trait `Serializer` or several specific one, e.g. `TripleSerializer` and `GraphSerializer`. The first for streams the second for more sophisticated actions (see #17). Some symmetry to the `Parser` trait would be nice.\r\n- [x] Introduce the changes to the NT-serializer.\r\n\r\nAll points are open to discussion."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-03-19T14:38:32Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4912,7 +5206,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -4958,6 +5252,12 @@
         "@value": "Hi, I'd love to use the `sophia::ns::namespace!` macro for my own projects, but I had to make a couple of changes to the code to make it work. I suspect making the fields on `IriData` public is not something you desire, but perhaps we can have a discussion about how to make this work? (btw, I am a neophyte Rust programmer)"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-15T21:36:11Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -4989,7 +5289,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5035,6 +5335,12 @@
         "@value": "Continue the work for #8 .\r\n\r\nRefactors the error-handling in `parser::xml`.\r\n\r\n- Everything related to `error-chain` is removed\r\n- A new `thiserror`-based error type is introduced\r\n- `WithLocation` is supported\r\n- The big `xml.rs` is split into smaller modules\r\n\r\n_Note:_ The version of `quick_xml` was updated. In the newer version they removed the dependency on `failure` and implemented `std::error::Error` for their error type."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-22T12:11:09Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5066,7 +5372,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5112,6 +5418,12 @@
         "@value": "Continuation of #8 .\r\n\r\nRemoves unnecessary error variants from `sophia::error::Error` and adds a new error for the `Graph` to `Dataset` wrapper.\r\n\r\n### Future work\r\n\r\nAt investigating `GraphAsDataset<G, H>` I recognized that the second parameter `H` is used nowhere actually. I could remove this within this PR if you like or did I missed something?\r\n\r\n@pchampin It seems to me that the mods parser and serializer are currently adapted to the `rio` crates. Is this work finished and I can continue refactoring the error handling or should I wait?"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-09T17:08:45Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5143,7 +5455,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5189,6 +5501,12 @@
         "@value": "This PR starts the process of gradually removing `error-chain` from `sophia` as suggested in #8.\r\n\r\nIt starts by moving errors related to the creation of terms to an own `sophia::term::TermError`.\r\n\r\nTemporary, a `impl From<TermError> for Error` was done in order to not have to refactor `ParserError` as well.\r\n\r\n---\r\n\r\nBTW @pchampin great work removing the lifetimes \ud83d\udc4d "
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-09T10:47:40Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5220,7 +5538,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5266,6 +5584,12 @@
         "@value": "This PR replaces the `coercible-errors`-crate by `StreamError`, defined like following:\r\n```Rust\r\n#[derive(Debug)]\r\npub enum StreamError<SourceErr, SinkErr>\r\nwhere\r\n    SourceErr: 'static + Error,\r\n    SinkErr: 'static + Error,\r\n{\r\n    Source(SourceErr),\r\n    Sink(SinkErr),\r\n}\r\n```\r\nIt allows function to return two different types of error, usually either an error from the `Source` providing new data or from the `Sink` that consumes it.\r\n\r\n### to do\r\n\r\nAs showed are the trait bounds for `SourceErr` and `SinkErr` only `'static + Error`. This should be expanded by `+ Send + Sync` in the future, in order to be able to implement concurrent graphs. The bound extension is delayed until `sophia::error::Error` is completly removed.\r\n\r\n_This PR is the result of #8 and was implemented according to #28_"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-12-20T18:13:30Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5297,7 +5621,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5343,6 +5667,12 @@
         "@value": "This issue was raised in the discussion about #8 . The argument was that\r\n* `coercible-error` is unidiomatic, and\r\n* it advocates a unique error type, which is not approrpiate with the plan to split Sophia into semi-independant crates (#26).\r\n\r\nI'll copy the relevant parts of the discussion below, for the sake of clarity."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-12-20T18:13:30Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5374,7 +5704,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5420,6 +5750,12 @@
         "@value": "This PR changes the error-handling of sophia and some semantics of `XSource` and `XSink` traits.\r\nI know, I shouldn't do two different things in one PR but I couldn't resist ... \r\n\r\n# Change in error-handling\r\n\r\nThis PR canges the error-handling in `sophia` from `error-chain` and `coercible-errors` to `thiserror` and `anyhow`.\r\n\r\n## Specific errors\r\n\r\nAs mentioned in #8 is the `error-chain`-crate somewhat outdated. I choose the relatively new `thiserror` as it is very simple and easy to use. \r\nIn addition the big `sophia::error::Error` is split into module-errors as suggested by [`snafu`](https://docs.rs/snafu/0.6.0/snafu/guide/philosophy/index.html#many-error-types). This will make it easier to split up `sophia` (#26) and reduces dependencies between the modules. Furthermore, it is someaht more aligned with the philosophie of \"each implementation can provide its own error\".\r\n\r\n## Coliding error-types\r\n\r\nThis was handled by `coercible-errors` before and is changed to `anyhow`. It provides [`anyhow::Error`](https://docs.rs/anyhow/1.0.25/anyhow/struct.Error.html) which is \"a better `Box<dyn Error>`\". It can be created from anytype that implements `std::error::Error`, therefore, is suitable when different error-types colide.\r\n\r\nAs stated in `anyhow`'s [docs](https://docs.rs/anyhow/1.0.25/anyhow/index.html#details) can `anyhow::Error` be downcasted to a concrete error-type, so users can still match against concrete types, e.g. done in the parser test.\r\n\r\nI don't want to offend `coercible-errors`. I just think the handling of many different errors will become more and more complicated as the `sophia`-ecosystem grows as implementers probably provide their own error-types. The complexity has been presented at `graph::Graph::retain()` which had a bizzar and complicated trait bound and now just returns `anyhow::Error`.\r\n\r\nThe merge-everything `anyhow::Error` is only used when two or more errors are used within one function. Everything else returns a specific error-type. This highlights better where the user has to be aware of error-mixing.\r\n\r\n# Semantics of `Iterator`s\r\n\r\n_When \"Triples\" are mentioned in the following section they can always be substituted with \"Quads\"_\r\n\r\nThe semantics of `TripleSource` and `TripleSink` always felt a bit cumbersome to me. As a result, I changed the semantics of them a bit.\r\n\r\n## Consume sources\r\n\r\nOften `Iterator`s where past in by `&mut` but `Iterator`s are designed to be consumed by iteration, therefore, it is more idomatic to move them into a function. Accordingly, I added `TripleSink::feed_all()` method that takes a `TripleSource`.\r\n\r\nThe semantic of a `TripleSink` is also not totaly clear to me. On the one hand there is the 'serializer'-sink that consumes and finishes just like `TripleSource`'s API suggests. On the other hand there are 'graph'-sinks that consume triples as-well but finishing them seems a bit unnatural. As a consequence, I removed the `Graph::inserter` and `Graph::remover` methods which are equally substituted by `Graph::insert_all` and `Graph::remove_all`.\r\n\r\n## Create from TripleSource\r\n\r\nThe builder-pattern for graphs seemed a bit unidomatic for me. Consequently, I removed `in_sink` and `in_graph` methods and created the new `CollectToGraph`-trait which extends the standard `Iterator`. I think this is more accesible for Rust programmers as its more close to the standard API (cf. getting started example in `lib.rs`). I tried to implement something like `impl FromIterator for Result<Graph>` so user could just call `collect()?` on a `TripleSource` but this is vorbidden by Rust's orphan rule...\r\n\r\n# Conclusion\r\n\r\nI'm totally aware that these are huge changes and that you might think that some of them are to much. Most of the changes I did are for sake of better ergonomics and a more idomatic Rust. I am open to disucussion and l will gladly change the PR if required.\r\n"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-12-15T15:41:48Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5451,7 +5787,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5593,6 +5929,12 @@
         "@value": "This issue contributes to #23 \r\n\r\nFor me the parser API of `sophia` is a bit confusing with its macros and `Config`.\r\n\r\nI suggest the introduction of a `Parser`-trait:\r\n```Rust\r\npub trait Parser {\r\n    fn parse_str<'src>(&'src mut self, input: &'src str) -> \r\n        Result<Box<dyn Iterator<Item=Result<[Term<Cow<'src, str>>; 3]>> + 'src>>;\r\n    fn parse_read<'src, R: 'src + Read>(&'src mut self, input: &mut R) -> \r\n        Result<Box<dyn Iterator<Item=Result<[Term<Cow<'src, str>>; 3]>> + 'src>>;\r\n}\r\n``` \r\n_For `Quad`s a similar trait respectively_\r\n\r\n* Allows `Parser`s to store state so they can lazily parse.\r\n* General enough for all serialization formats in question.\r\n* Easy for beginners to understand.\r\n* Result implements `TripleSource`\r\n\r\nAn implementation for the N-Triples parser, e.g.:\r\n```Rust\r\nmod nt {\r\n  #derive[default]\r\n  struct Parser {\r\n    strict: bool;\r\n  }\r\n\r\n  impl Parser {\r\n    fn new_strict() -> Self { Self { strict: true, } }\r\n  }\r\n \r\n  impl Parser for Parser {\r\n    ...\r\n  }\r\n}\r\n```"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-13T09:59:12Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5624,7 +5966,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -5689,6 +6031,12 @@
         "@value": "They are causing much complexity, especially the [requirement for using higher-ranked type bound](https://docs.rs/sophia/0.3.0/sophia/graph/trait.Graph.html#how-to-use-graph-in-a-trait-bound) in some situations.\r\n\r\nIt might be better to give up some genericity in order to make the API easier to use."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-12-30T09:45:56Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -5720,7 +6068,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6151,6 +6499,12 @@
         "@value": "`sophia` is the most mature and active developed crate for RDF and linked data at the moment.\r\nHowever, there is still a long way to go.\r\nSaddly, it seems you don't have much time to work on it.\r\n\r\nI realy want this crate to succeed and would like to contribute to it.\r\nBut I don't want to mess up your plans.\r\nTherefore, I suggest that you add add some 'help wanted' or 'todo' issues or maybe some milestones to define the long-term goals (like adding SPARQL support?).\r\nThis will make it easier for me and others to contribute to this crate."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-12-10T08:56:35Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6182,7 +6536,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6382,6 +6736,12 @@
         "@value": "Added a 'Getting Started' example to the crate's docs as requested by #14."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-12-03T10:33:14Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6413,7 +6773,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6536,6 +6896,12 @@
         "@value": "This PR fixes #12 by adding `percent-encoding` as a direct dependency, and updates the `url` crate to version `2.1.0`. I also added a field to `Cargo.toml` so that the documentation is built with all features enabled on `docs.rs`, so that the XML parser doc is built as well.\r\n\r\nBy the way, @phillord and I would be glad to have the XML parser released in a new version (`0.3.0` I suppose) whenever you can push that."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-08-07T06:18:50Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6567,7 +6933,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6613,6 +6979,12 @@
         "@value": "...and the XML parser uses it, which prevents us from upgrading the dependency to `url` beyond 1.7.2. @althanos, could you please have look at it and see if we can get rid of this? Thanks in advance..."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-08-07T06:18:50Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6644,7 +7016,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6709,6 +7081,12 @@
         "@value": "At commit  b113fc4, one of the tests (see below) is passing most of the times, but failing every now and then. It seems to be always the same test, and always at the same point.\r\n\r\nSince it is non-deterministic, it is likely due to an unsafe block code. I'm also considering a wrong ref-counting in `TermIndexMapU`. The fact that it happens in the `default_graph` test, and not in any other test involving `TermIndexMapU`, might indicate that it has to do with the special treatment GraphId::Default has in `TermIndexMapU`.\r\n\r\nTest id: `graph::adapter::test::dataset::default_graph::test_retain`\r\nStack trace:\r\n```\r\n   0: std::sys::unix::backtrace::tracing::imp::unwind_backtrace\r\n             at src/libstd/sys/unix/backtrace/tracing/gcc_s.rs:39\r\n   1: std::sys_common::backtrace::_print\r\n             at src/libstd/sys_common/backtrace.rs:71\r\n   2: std::panicking::default_hook::{{closure}}\r\n             at src/libstd/sys_common/backtrace.rs:59\r\n             at src/libstd/panicking.rs:197\r\n   3: std::panicking::default_hook\r\n             at src/libstd/panicking.rs:208\r\n   4: std::panicking::rust_panic_with_hook\r\n             at src/libstd/panicking.rs:474\r\n   5: std::panicking::continue_panic_fmt\r\n             at src/libstd/panicking.rs:381\r\n   6: rust_begin_unwind\r\n             at src/libstd/panicking.rs:308\r\n   7: core::panicking::panic_fmt\r\n             at src/libcore/panicking.rs:85\r\n   8: core::panicking::panic\r\n             at src/libcore/panicking.rs:49\r\n   9: core::option::Option<T>::unwrap\r\n             at /rustc/a53f9df32fbb0b5f4382caaad8f1a46f36ea887c/src/libcore/macros.rs:12\r\n  10: <sophia::graph::inmem::_term_index_map_u::TermIndexMapU<T,F> as sophia::term::index_map::TermIndexMap>::dec_ref\r\n             at sophia/src/graph/inmem/_term_index_map_u.rs:144\r\n  11: <sophia::dataset::inmem::_hash_dataset::HashDataset<I> as sophia::dataset::indexed::IndexedDataset>::remove_indexed\r\n             at sophia/src/dataset/inmem/_hash_dataset.rs:158\r\n  12: <sophia::dataset::inmem::_hash_dataset::HashDataset<I> as sophia::dataset::_traits::MutableDataset>::remove\r\n             at sophia/src/dataset/indexed.rs:102\r\n  13: <sophia::dataset::adapter::DatasetGraph<D,E,sophia::term::graph_id::GraphId<F>> as sophia::graph::_traits::MutableGraph>::remove\r\n             at sophia/src/dataset/adapter.rs:151\r\n  14: <sophia::graph::_sinks::Remover<G> as sophia::triple::stream::TripleSink>::feed\r\n             at sophia/src/graph/_sinks.rs:60\r\n  15: sophia::triple::stream::TripleSource::in_sink\r\n             at sophia/src/triple/stream.rs:55\r\n  16: sophia::graph::_traits::MutableGraph::remove_all\r\n             at sophia/src/graph/_traits.rs:450\r\n  17: sophia::graph::_traits::MutableGraph::retain\r\n             at sophia/src/graph/_traits.rs:524\r\n  18: sophia::graph::adapter::test::dataset::default_graph::test_retain\r\n             at sophia/src/graph/test.rs:261\r\n  19: sophia::graph::adapter::test::dataset::default_graph::test_retain::{{closure}}\r\n             at sophia/src/graph/test.rs:256\r\n  20: core::ops::function::FnOnce::call_once\r\n             at /rustc/a53f9df32fbb0b5f4382caaad8f1a46f36ea887c/src/libcore/ops/function.rs:231\r\n  21: <alloc::boxed::Box<F> as core::ops::function::FnOnce<A>>::call_once\r\n             at /rustc/a53f9df32fbb0b5f4382caaad8f1a46f36ea887c/src/liballoc/boxed.rs:704\r\n  22: __rust_maybe_catch_panic\r\n             at src/libpanic_unwind/lib.rs:85\r\n  23: test::run_test::run_test_inner::{{closure}}\r\n             at /rustc/a53f9df32fbb0b5f4382caaad8f1a46f36ea887c/src/libstd/panicking.rs:272\r\n             at /rustc/a53f9df32fbb0b5f4382caaad8f1a46f36ea887c/src/libstd/panic.rs:394\r\n             at src/libtest/lib.rs:1468\r\n```"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-07-20T17:38:43Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6740,7 +7118,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6805,6 +7183,12 @@
         "@value": "Hi!\r\n\r\nWhile running tests using the `rdf-tests` I stumbled upon this issue, where valid percent-encoded IRI would be considered invalid: for instance, parsing [`rdf-charmod-uris/test002.nt`](https://www.w3.org/2013/RDFXMLTests/rdf-charmod-uris/test002.nt) will fail because `http://example.org/#Andr%C3%A9` is considered invalid.\r\n\r\n"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-05-27T09:04:24Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6836,7 +7220,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6882,6 +7266,12 @@
         "@value": "Hi!\r\n\r\nThis is a **work in progress** branch, so it's not clear to merge right now, but this is how far I am currently with an RDF/XML parser. I'm parsing correctly ~~most~~ **all** of the [RDF/XML 1.1](https://www.w3.org/TR/rdf-syntax-grammar/#parseTypeCollectionPropertyElt) examples, and I need to add the tests from `rdf-test`.\r\n\r\nI'll also feature-gate the parser behind an XML feature since it requires an additional dependency (`quick-xml`).\r\n\r\n## Missing features\r\n\r\n- [x] Proper error reporting (currently everything panics, but I'm not sure I want to work on this before #8  is resolved)\r\n- [ ] `rdf:parseType=\"Literal\"` (this is likely to need a PR in `quick-xml`)\r\n- [x] `rdf:parseType=\"Collection\"`\r\n- [x] Statements reification\r\n- [x] Validation of elements names"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-06-13T07:36:48Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6913,7 +7303,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -6959,6 +7349,12 @@
         "@value": "Hi!\r\n\r\n`error-chain` [is not maintained anymore](https://github.com/rust-lang-nursery/failure/issues/181), so it would be a good idea to move to [`failure`](https://github.com/rust-lang-nursery/failure), which has all the features needed already, as well as backtrace support (i.e. the underlying `pest` error could be accessed from a `ParserError` using the `cause()` method)."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-01-22T17:55:37Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -6990,7 +7386,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7036,6 +7432,12 @@
         "@value": "Hi!\r\n\r\nWhile toying with the library, I noticed that the comparison of language tags was case-sensitive. According to the [RDF Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/), language tags are defined in [BCP47](https://tools.ietf.org/html/bcp47), which states:\r\n> All comparisons MUST be performed in a case-insensitive manner.\r\n\r\nThis can be found in the W3C RDF/XML syntax examples: [`example08.rdf`](https://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/example08.rdf) has `en-US`  while [`example08.nt`](https://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/example08.nt) has `en-us` where both are supposed to be equal.\r\n\r\nThis PR fixes `PartialEq`, but also `Hash`, to make comparison and hashing of `LiteralKind` case-insensitive. (*About the `to_lowercase` call: this one allocates, while it could be possible to loop over all characters of the `tag1` and hash their lowercase variant without allocating, but since language tags are extremely small strings I am not sure this would really be an improvement over allocating and hashing the buffered bytes directly)."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-05-21T14:40:41Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7067,7 +7469,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7113,6 +7515,12 @@
         "@value": "In #5 @MattesWhite suggested to introduce the super-trait TermData for convienence:\r\n```rust\r\n/// Supertrait for all properties data of a `Term<T>` must provide.\r\npub trait TermData: AsRef<str> + Clone + Eq + Hash {}\r\nimpl<T> TermData for T where T: AsRef<str> + Clone + Eq + Hash {}\r\n```\r\nThat would indeed simplify a lot of code."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-04-26T12:05:32Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7144,7 +7552,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7190,6 +7598,12 @@
         "@value": "Hi,\r\nI'm using this crate a lot for an IoT application and realy like it. However, I run into problems when iterating a Graph.\r\n\r\nThe core idea I want to accomplish is to build structs from the contents of a Graph. Therefore I defined following trait:\r\n````rust\r\npub trait FromGraph<'a, T, G>: Sized\r\nwhere\r\n    T: Borrow<str>,\r\n    G: Graph<'a>,\r\n    MyError: From<<G as Graph<'a>>::Error>,\r\n{\r\n    fn from_graph(s: &'a Term<T>, graph: &'a G) -> MyResult<Self>;\r\n}\r\n````\r\nThis works fine until I want to parse nested Structs, e.g. I have the following graph:\r\n````\r\n@prefix rdf: <http://www.w3.org/...#> .\r\n@base <http://example.org/> .\r\n\r\nEntityA a A ;\r\n  rdf:value 42 .\r\nEntityB a B ;\r\n  hasA EntityA ;\r\n  rdf:value 24 .\r\n````\r\nTo use those in my code I've written the following in-Rust-representation:\r\n````rust\r\nlazy_static! {\r\n    static ref HAS_A: Term<&'static str> = unsafe{ Term::new_iri_unchecked(\"http://example.org/hasA\", Some(true)) };\r\n}\r\n\r\n#[derive(Debug, Clone, Copy)]\r\nstruct A {\r\n    value: i32,\r\n}\r\n\r\nimpl<'a, T, G> FromGraph<'a, T, G> for A\r\nwhere\r\n    T: Borrow<str>,\r\n    G: Graph<'a>,\r\n    MyError: From<<G as Graph<'a>>::Error>,\r\n{\r\n    fn from_graph(s: &'a Term<T>, graph: &'a G) -> MyResult<Self> {\r\n        let t_value = graph.iter_for_sp(s, &rdf::value).last().ok_or(MyError)??;\r\n        let t_value = t_value.o();\r\n        let value = t_value.value().parse::<i32>()?;\r\n        Ok(A { value })\r\n    }\r\n}\r\n\r\n#[derive(Debug, Clone, Copy)]\r\nstruct B {\r\n    a: A,\r\n    value: i32,\r\n}\r\n\r\nimpl<'a, T, G> FromGraph<'a, T, G> for B\r\nwhere\r\n    T: Borrow<str>,\r\n    G: Graph<'a>,\r\n    MyError: From<<G as Graph<'a>>::Error>,\r\n{\r\n    fn from_graph(s: &'a Term<T>, graph: &'a G) -> MyResult<Self> {\r\n        let t_a = graph.iter_for_sp(s, &HAS_A).last().ok_or(MyError)??;\r\n        let t_a = t_a.o(); // here is where the error occures\r\n        let a = A::from_graph(t_a, graph)?;\r\n\r\n        let t_value = graph.iter_for_sp(s, &rdf::value).last().ok_or(MyError)??;\r\n        let t_value = t_value.o();\r\n        let value = t_value.value().parse::<i32>()?;\r\n        Ok(B { a, value })\r\n    }\r\n}\r\n````\r\nThe error I get is `t_a does not live long enough`\r\n````\r\n   |\r\n64 | impl<'a, T, G> FromGraph<'a, T, G> for B\r\n   |      -- lifetime `'a` defined here\r\n...\r\n72 |         let t_a = t_a.o(); // here is where the error occures\r\n   |                   ^^^----\r\n   |                   |\r\n   |                   borrowed value does not live long enough\r\n   |                   argument requires that `t_a` is borrowed for `'a`\r\n...\r\n79 |     }\r\n   |     - `t_a` dropped here while still borrowed\r\n````\r\nDo you have any idea how I could get this working? Maybe an API change could solve this?\r\n\r\nIn the end I want to accomplish something serde-flavored like:\r\n````rust\r\n#[derive(FromGraph)]\r\nstruct A {\r\n  #[predicate(rdf:value)]\r\n  value: i32,\r\n}\r\n\r\n#[derive(FromGraph)]\r\nstruct B {\r\n  #[predicate(HAS_A)]\r\n  a: A,\r\n  #[predicate(rdf:value)]\r\n  value: i32,\r\n}\r\n````"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-04-24T10:40:18Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7221,7 +7635,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7267,6 +7681,12 @@
         "@value": "Badges has to be updated with your repository (maybe a good time to start a community ...)"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-03-22T07:04:32Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7298,7 +7718,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7344,6 +7764,12 @@
         "@value": "```rust \r\nfailures:\r\n\r\n---- parser::nt::test::w3c_test_suite stdout ----\r\nthread 'parser::nt::test::w3c_test_suite' panicked at 'rdf-tests/ntriples not found, can not check W3C test-suite', sophia/src/parser/nt.rs:597:17\r\nnote: Run with `RUST_BACKTRACE=1` for a backtrace.\r\n\r\n---- parser::nt::test::w3c_test_suite_generalized stdout ----\r\nthread 'parser::nt::test::w3c_test_suite_generalized' panicked at 'rdf-tests/ntriples not found, can not check W3C test-suite', sophia/src/parser/nt.rs:632:17\r\n```\r\n\r\nWho to get w3c_test_suite ?\r\n"
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-03-20T14:59:23Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7375,7 +7801,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7421,6 +7847,12 @@
         "@value": ""
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2019-03-20T16:39:53Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7452,7 +7884,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {
@@ -7517,6 +7949,12 @@
         "@value": "Problem\r\n----\r\n\r\nCurrently, when inserting bnode identifies in a graph, the bnode identifier is kept as is.\r\n\r\nFor example, loading this file into a graph:\r\n```\r\n_:b1 <tag:p> \"foo\".\r\n```\r\nthen, loading this file into the same graph:\r\n```\r\n_:b1 <tag:q> \"bar\".\r\n```\r\nwill result in the following graph (in Turtle):\r\n```\r\n  [] <tag:p> \"foo\"; <tag:q> \"bar\".\r\n```\r\nwhile it should be\r\n```\r\n  [] <tag:p> \"foo\".\r\n  [] <tag:q> \"bar\".\r\n```\r\n*i.e.* two different subjects, because the bnode identifiers in the two different files have two different scopes.\r\n\r\nNB: it is important for the developer to be able to handle bnodes consistently, so at the lowest level (e.g. `Graph::insert`), the API should consider bnode identifiers as stable. But on the other hand, the default behaviour when loading a file should be the correct one.\r\n\r\nProposed solution\r\n----\r\n\r\nThe methods `TripleSource.in_graph` and `QuadSource.in_dataset` are the preferred way of loading a stream of triples/quads (such as the one coming from a parser) into a graph/dataset. \r\n\r\nThe proposed solution is to change the semantics of these methods, and make them rename the bnodes they receive to avoid name-clashes with existing bnodes in the graph/dataset. Whether this should be done by generating UUIDs or inspecting the target graph/dataset for existing name, I'm not sure yet...\r\n\r\nNew methods `in_graph_raw` and `in_dataset_raw` (better name?) should probably be added, which would have the current semantics of `in_graph` and `in_dataset`."
       }
     ],
+    "http://schema.org/endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "2020-04-24T20:01:50Z"
+      }
+    ],
     "http://example.com/ns#comment": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -7548,7 +7986,7 @@
       ]
     },
     "@type": [
-      "closed"
+      "http://example.com/ns#ClosedIssue"
     ],
     "http://schema.org/name": [
       {

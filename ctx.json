@@ -43,7 +43,11 @@
 			"@type" : "@id"
 		},
 		"state": "@type",
-		"open": "ex:OpenIssue",
-		"close": "ex:ClosedIssue"
+		"open" : "ex:OpenIssue",
+		"closed" : "ex:ClosedIssue",
+		"closed_at" : {
+			"@id" : "s:endDate",
+			"@type" : "xsd:anyURI"
+		}
 	}
 }
