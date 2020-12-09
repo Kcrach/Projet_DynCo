@@ -7,24 +7,23 @@
 			"@id" : "s:startDate",
 			"@type" : "xsd:dateTimeStamp"
 		},
-		"id" : "s:indentifier",
+		"id" : "s:identifier",
 		"title" : "s:name",
 		"body" : "s:description",
-		"author_association" : "ex:author_association",
-		"url" : {
+		"author_association" : "ex:authorAssociation",
+		"url" : "@id",
+		"html_url" : {
 			"@id" : "s:url",
 			"@type" : "xsd:anyURI"
 		},
-		"comments_url" : {
-			"@id" : "ex:comment",
-			"@type" : "xsd:anyURI"
-		},
+		"type" : "@type",
+		"User" : "ex:User",
 		"user" :  {
 			"@id" : "s:creator",
-			"@type" : "ex:user"
+			"@type" : "ex:User"
 		},
 		"login" : "s:accountId",
-		"labels_url" :{
+		"labels" :{
 			"@id" : "ex:label",
 			"@type" : "xsd:anyURI"
 		},
@@ -36,7 +35,7 @@
 		},
 		"assignees" : {
 			"@id" : "s:assignee",
-			"@type" : "ex:user"
+			"@type" : "ex:User"
 		}, 
 		"repository_url" : {
 			"@reverse" : "ex:issue",
@@ -47,7 +46,7 @@
 		"closed" : "ex:ClosedIssue",
 		"closed_at" : {
 			"@id" : "s:endDate",
-			"@type" : "xsd:anyURI"
+			"@type" : "xsd:dateTimeStamp"
 		}
 	}
 }
